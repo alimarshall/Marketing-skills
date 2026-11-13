@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitor Ad Analysis"
+  short_description: "Turn ad references into original directions"
+  default_prompt: "Use $competitor-ad-analysis to help develop our company’s advertising from the supplied brief and source materials."
