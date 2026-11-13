@@ -2,7 +2,7 @@
 
 Claude skills for B2B SaaS product marketing. Positioning, paid creative, content planning, and the verification discipline that keeps all three honest.
 
-Twenty-three skills, one shared spine: **never invent a product fact, a customer quote, a stat or a competitor capability.**
+Twenty-five skills, one shared spine: **never invent a product fact, a customer quote, a stat or a competitor capability.**
 
 ## The skills
 
@@ -37,6 +37,13 @@ Twenty-three skills, one shared spine: **never invent a product fact, a customer
 |---|---|---|
 | [`product-update-email`](./product-update-email) | Compile the recurring customer product-update email: find the last one sent, find what shipped since, group and draft | "draft this month's product update" |
 | [`employee-linkedin-posts`](./employee-linkedin-posts) | Ghostwrite LinkedIn posts for employees building a personal brand as practitioners in the buyer's field, never as salespeople. Ships with a fill-in company context template | "write me a LinkedIn post", "fix my LinkedIn headline" |
+
+### Thought leadership
+
+| Skill | Job | Say |
+|---|---|---|
+| [`exec-tl-context-file`](./exec-tl-context-file) | Audit everything on a founder or exec, list the gaps and open questions for thought leadership, then build one context file: beliefs, positions, pillars, voice, hooks, boundaries | "what's missing for our CEO's LinkedIn", "build a context file for [exec]" |
+| [`exec-post-skeletons-from-buyer-research`](./exec-post-skeletons-from-buyer-research) | Turn buyer research and a VoC library into LinkedIn post skeletons for an exec, one per buyer pain: evidence as patterns, the exec's take on each point, hooks, ending, flags to confirm | "post skeletons on the buyer pains", "angles for [exec] from the research" |
 
 ### Content planning
 
@@ -86,6 +93,8 @@ Every skill reads [`company-context.md`](./company-context.md) first: the compan
 `capability-boundary-map` is what the other five check claims against. `claim-verification` and `copy-register-check` are the last two steps of any workflow producing customer-facing copy. `source-doc-writeback` is what you run when verification finds that a source document, rather than the copy, is the thing that is wrong.
 
 `competitor-buyer-sweep` keeps the outward-facing research current and `product-capability-refresh` keeps the inward-facing product truth current. Everything else reads from those two. `capability-pillar-research` feeds `pillar-landing-pages`, and `creative-testing` closes the loop on what `creative-strategy` and `chatgpt-ads` put live.
+
+`exec-tl-context-file` sets down what an exec believes and how they write. `exec-post-skeletons-from-buyer-research` uses that file and the buyer research to plan their posts, one skeleton per pain, for the exec to keep, edit or cut.
 
 A few skills hand off to general marketing skills that are not in this repo (`paid-ads`, `page-cro`, `ad-creative`, `ab-test-setup`, `analytics-tracking`, `gong-transcripts`). They work without them; the hand-off just names where that job goes if you have one installed.
 
@@ -149,6 +158,9 @@ vertical-persona-research/SKILL.md  function, industry and ABM persona lenses, c
 abm-account-multithread/SKILL.md    committee map, one angle per thread, sequencing, openers
 customer-proof-from-usage-reports/SKILL.md  verbatim capture, guardrail table, persona mapping
 tracking-audit-punch-list/SKILL.md  P0/P1/P2 in shorthand, confirmed-firing rule, ID table
+
+exec-tl-context-file/SKILL.md       coverage audit, open questions, the context file's 14 sections
+exec-post-skeletons-from-buyer-research/SKILL.md  synthesis, skeleton format, evidence and voice rules
 
 employee-linkedin-posts/
   SKILL.md                        intake, content lanes, post mix, profile guidance
