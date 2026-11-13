@@ -2,7 +2,7 @@
 
 Claude skills for B2B SaaS product marketing. Positioning, paid creative, content planning, and the verification discipline that keeps all three honest.
 
-Twenty-one skills, one shared spine: **never invent a product fact, a customer quote, a stat or a competitor capability.**
+Twenty-three skills, one shared spine: **never invent a product fact, a customer quote, a stat or a competitor capability.**
 
 ## The skills
 
@@ -28,6 +28,8 @@ Twenty-one skills, one shared spine: **never invent a product fact, a customer q
 | [`capability-pillar-research`](./capability-pillar-research) | Regroup buyer research and the real capability catalogue into verb-based pillars rather than features or modules | "organise this by what the product actually does", "build the pillar docs" |
 | [`pillar-landing-pages`](./pillar-landing-pages) | Split one positioning brief into a landing-page brief per pillar, each with its own URL, keyword research and hero-to-CTA copy | "a page for each pillar", "landing page per capability" |
 | [`one-pagers`](./one-pagers) | Build a one-page leave-behind, battlecard, objection sheet or champion one-sheet where every claim survives a sceptical reader | "make a one-pager", "leave-behind for the migration conversation" |
+| [`alternative-page-skeletons`](./alternative-page-skeletons) | Evidence-backed "[Competitor] alternative" page skeletons: sales, CRM win/loss, calls and reviews, sales' read of each competitor turned into positive positioning, one 10-block template, every claim checked against product truth | "competitor landing pages", "Shapes alternative page", "add Workday to the competitor pages" |
+| [`feature-page-skeletons`](./feature-page-skeletons) | Landing page skeletons per feature, use case or capability pillar: product-truth table first, research header per page, a dream-state block, and pages that end with security, support and CTA | "a page for workflows", "use case pages", "add the new feature to the use case pages" |
 
 ### Comms
 
