@@ -14,6 +14,8 @@ Use when someone asks "what % of buyers want X", "how has X changed over the yea
 - **Next:** research-data-charts (charts), founder-pov-concepts and teach-then-sell-video-scripts (stats to quote), buyer-research (new themes worth adding).
 
 ## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
 - **Transcripts grouped per company:** one file per prospect company holding all its relevant calls, with each line labelled as seller side or prospect side (e.g. `(SELLER)` / `(PROSPECT)`). Pull them from the call recorder (Gong, Chorus, Fathom and so on).
 - **Grouping:** group by the prospect's email domain, never by call title. Keep only external calls of real length.
 - **Company table:** one record per company with first call date, number of calls, relationship (prospect, customer, partner) and whether the call is substantive. Analyse substantive buyer conversations only.
