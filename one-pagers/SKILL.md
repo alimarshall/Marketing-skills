@@ -9,6 +9,8 @@ A one-pager only works if it says one thing, to one audience, and every claim on
 
 ## Inputs
 
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company. If `creative-strategy/references/inputs.md` is also filled in, it still applies; where the two differ, `company-context.md` wins.
+
 Record these once in `creative-strategy/references/inputs.md` (the shared inputs contract), or fill them in here:
 
 - One-pager design and style context (your brand layout file, if you keep one): `<fill in>`
