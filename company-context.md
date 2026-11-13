@@ -61,6 +61,17 @@ If a line is blank, the skill asks for it once and offers to write the answer ba
   - Archive folder for backups before a cleanup: `<fill in>`
 - Cadence: weekly sweep day, and competitor events that trigger an AI/MCP re-check: `<fill in>`
 
+## Thought leadership (for exec-tl-context-file and exec-post-skeletons-from-buyer-research)
+
+- Exec(s) posting, with role and LinkedIn profile URL: `<fill in>`
+- Where each exec's spoken material lives (call transcripts, interviews, session notes): `<fill in>`
+- Where each exec's written material lives (manifestos, posts, voice guide): `<fill in>`
+- Exec context file location (written by exec-tl-context-file): `<fill in>`
+- Positioning guardrails the posts must never cross (e.g. what the product never claims to replace): `<fill in>`
+- Approved framing for referring to customer conversations (e.g. "in our conversations with [buyer role] this year"): `<fill in>`
+- Internal numbers cleared for publishing: `<fill in>`
+- Where skeleton docs should be saved or shared: `<fill in>`
+
 ## Websites and tracking (for tracking-audit-punch-list)
 
 - Site URLs, and which brand each belongs to: `<fill in>`
