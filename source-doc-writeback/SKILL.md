@@ -16,6 +16,10 @@ Two failure shapes, equally damaging:
 
 Hunt for both. Underclaims are quieter and get found less often.
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 ## Step 1: Write the ground truth down first
 
 Before touching a single document, write the corrected facts as a numbered list, each with its source and date. Every edit later traces to one of these numbers. If you cannot write the fact cleanly, you do not understand it well enough to propagate it.
