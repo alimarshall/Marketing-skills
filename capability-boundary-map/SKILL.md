@@ -9,6 +9,10 @@ Marketing claims fail at the edges. The middle of a capability is well understoo
 
 This skill turns a technical source into a document a non-technical person can check a claim against in thirty seconds.
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 ## Step 1: Get the authoritative source, and read it properly
 
 The source is whatever defines access at the system level: a permissions or scopes table, an API endpoint list, a feature-flag matrix, an entitlements document.
