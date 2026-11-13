@@ -9,6 +9,10 @@ Builds SEO "[Competitor] alternative" pages for any B2B product. Every page uses
 
 Use it for: "competitor landing pages", "[X] alternative page", "vs pages", "prep a page for [competitor]", or "add [competitor] to the competitor pages".
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 ## 1. Gather evidence (sources in this order)
 
 Run the internal sources in parallel where you can. Record what each source says, with its date.
