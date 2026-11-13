@@ -2,7 +2,7 @@
 
 Claude skills for B2B SaaS product marketing. Positioning, paid creative, content planning, and the verification discipline that keeps all three honest.
 
-Twenty-five skills, one shared spine: **never invent a product fact, a customer quote, a stat or a competitor capability.**
+Forty skills, one shared spine: **never invent a product fact, a customer quote, a stat or a competitor capability.**
 
 ## The skills
 
@@ -38,12 +38,15 @@ Twenty-five skills, one shared spine: **never invent a product fact, a customer 
 | [`product-update-email`](./product-update-email) | Compile the recurring customer product-update email: find the last one sent, find what shipped since, group and draft | "draft this month's product update" |
 | [`employee-linkedin-posts`](./employee-linkedin-posts) | Ghostwrite LinkedIn posts for employees building a personal brand as practitioners in the buyer's field, never as salespeople. Ships with a fill-in company context template | "write me a LinkedIn post", "fix my LinkedIn headline" |
 
-### Thought leadership
+### Thought leadership and video
 
 | Skill | Job | Say |
 |---|---|---|
 | [`exec-tl-context-file`](./exec-tl-context-file) | Audit everything on a founder or exec, list the gaps and open questions for thought leadership, then build one context file: beliefs, positions, pillars, voice, hooks, boundaries | "what's missing for our CEO's LinkedIn", "build a context file for [exec]" |
 | [`exec-post-skeletons-from-buyer-research`](./exec-post-skeletons-from-buyer-research) | Turn buyer research and a VoC library into LinkedIn post skeletons for an exec, one per buyer pain: evidence as patterns, the exec's take on each point, hooks, ending, flags to confirm | "post skeletons on the buyer pains", "angles for [exec] from the research" |
+| [`founder-pov-concepts`](./founder-pov-concepts) | High-level founder or exec POV concepts from buyer research: what's changing, two points, what I think, what it means, one usable quote or stat | "concepts for our CEO", "founder video ideas", "keep it high level" |
+| [`teach-then-sell-video-scripts`](./teach-then-sell-video-scripts) | Short talking-head video ad scripts that teach first and bring the product in as proof: stacked hooks, timed tables, 30-second cuts, hook test plan | "video ad script", "thought leadership video", "cut this to 30 seconds" |
+| [`education-video-prep`](./education-video-prep) | Prep a 12 to 18 minute how-to video: run of show, presenter split, talking points, story prompts, product mentions where they fit, prep-call questions, claims check, shoot plan | "prep this video", "run of show", "talking points for the presenters" |
 
 ### Content planning
 
@@ -59,11 +62,28 @@ Twenty-five skills, one shared spine: **never invent a product fact, a customer 
 | [`abm-account-multithread`](./abm-account-multithread) | Multithread one named account: CRM, calls and public signals into a real buying-committee map, a distinct angle and opener per person, and the order to approach them | "multithread Acme", "who should we talk to at Acme", "we're single-threaded" |
 | [`customer-proof-from-usage-reports`](./customer-proof-from-usage-reports) | Turn a customer usage report into proof: figures saved verbatim, derived maths labelled, wording guardrails, consent flag, stats mapped per persona, slide bullets | "save these stats", "what can we say with this", "slides per persona from these numbers" |
 
-### Measurement
+### Measurement and attribution
 
 | Skill | Job | Say |
 |---|---|---|
 | [`tracking-audit-punch-list`](./tracking-audit-punch-list) | Audit tag manager, ad conversions, analytics, pixels, consent and CRM tracking; return a P0/P1/P2 punch list in operator shorthand plus an ID table | "audit our tracking", "are conversions firing", "simplify this audit" |
+| [`crm-channel-attribution-review`](./crm-channel-attribution-review) | Channel attribution from the CRM: closed-won and lead sources, brand vs non-brand paid, YoY and period-over-period funnel by channel, data gaps and deck lines | "which channels are working", "attribution for our last 100 deals", "qualified leads vs last period" |
+| [`deal-source-verification`](./deal-source-verification) | Check whether deals tagged to a channel really came from it, from the emails, notes and calls behind each one; verdicts with dated quotes and recomputed numbers | "was this deal actually from an event", "check the events deals in the pipeline" |
+| [`paid-media-roi-and-cac`](./paid-media-roi-and-cac) | Pull spend from LinkedIn and Google Ads by period and match it to CRM pipeline and wins: pipeline per £1, return on spend, cost per lead, media-only CAC | "LinkedIn ROAS", "what's our CAC", "events return on spend" |
+
+### Competitive intelligence and buyer research
+
+| Skill | Job | Say |
+|---|---|---|
+| [`competitive-intel-system`](./competitive-intel-system) | The hub: how the VOC library, buyer research, use-case evidence, competitor dossiers, capability baseline, matrices, differentiation reference and verification tracker fit together and stay current. Start here | "build our competitive intel", "how do the research docs fit together" |
+| [`competitor-dossiers`](./competitor-dossiers) | Build, update or clean up one competitor dossier in a fixed shareable format, with deal intelligence grouped into themes and verbatim quotes | "build a dossier on X", "update the X dossier", "clean up the competitor pages" |
+| [`competitive-matrices`](./competitive-matrices) | Capability baseline, master capability matrix, communication matrix, differentiation reference and verification tracker, re-rated whenever anyone ships | "how do we rate against X", "update the matrices", "where do we trail" |
+| [`buyer-research`](./buyer-research) | The VOC quote library and per-product buyer research: pain and aspiration pillars, objections, personas, per-use-case context | "what are buyers saying", "pull themes and quotes", "update the buyer research" |
+| [`buyer-call-synthesis`](./buyer-call-synthesis) | Mine a batch of sales calls into verified quotes and themes, screened by account domain and product line | "rescan the calls", "what came up on calls this month" |
+| [`use-case-evidence-research`](./use-case-evidence-research) | Evidence per use case or job: pains today, hopes, what excites buyers, proof, checked against the capability baseline | "evidence for each use case", "pains per use case" |
+| [`call-research-trend-analysis`](./call-research-trend-analysis) | Tag every buyer company's calls on a fixed rubric and turn it into shares and quarterly trends | "how have buyer fears changed", "trend the calls by quarter" |
+| [`research-data-charts`](./research-data-charts) | Chart the trend and share data from the research, with the numbers checked | "chart this", "make the research charts" |
+| [`claim-propagation-sweep`](./claim-propagation-sweep) | A product fact changed, so find every doc, ad bank, page brief and wiki page still stating the old one and fix or flag it | "we shipped X, update everything", "find anywhere we still claim X" |
 
 ### Verification and upkeep
 
@@ -73,7 +93,7 @@ Twenty-five skills, one shared spine: **never invent a product fact, a customer 
 | [`copy-register-check`](./copy-register-check) | Check finished copy against a house style rule set using a literal search rather than a read-through | "run the copy sweep", "check this against our style guide" |
 | [`capability-boundary-map`](./capability-boundary-map) | Turn a scope document, permissions table or API spec into a plain-language map of what the product can read, change and cannot touch | "what can it actually do", "what are the limits", "can we claim X" |
 | [`source-doc-writeback`](./source-doc-writeback) | A fact changed, so find every internal document carrying the old version and fix it | "update all our docs that reference X", "propagate this correction" |
-| [`competitor-buyer-sweep`](./competitor-buyer-sweep) | Recurring sweep that folds new buyer language and competitor mentions into the standing research docs, additively. Can run on a schedule against a call recorder | "run the buyer sweep", "check for new competitor mentions" |
+| [`competitor-buyer-sweep`](./competitor-buyer-sweep) | Recurring sweep that folds new buyer language and competitor mentions into the standing research docs, merged in place with no dated notes. Can run on a schedule against a call recorder | "run the buyer sweep", "check for new competitor mentions" |
 | [`product-capability-refresh`](./product-capability-refresh) | A feature shipped or changed, so fold it into the capability baseline and every doc that shares that ground | "we just shipped X, update the capability docs" |
 
 ## Using these for any company
@@ -83,6 +103,14 @@ Every skill reads [`company-context.md`](./company-context.md) first: the compan
 ### The buyer research loop
 
 `vertical-persona-research` builds the function and industry view and the industry buying-committee maps. `abm-account-multithread` starts from that map for a named account, and writes new persona insight back. `customer-proof-from-usage-reports` turns usage reports into guardrailed stats that both of them pull into their proof sections. `tracking-audit-punch-list` makes sure the campaigns built on all of this can be measured. Each skill has a **Works with** section naming its inputs and hand-offs; any skill named there that isn't installed is done inline.
+
+### The competitive and buyer research loop
+
+`competitive-intel-system` is the hub. `buyer-call-synthesis` and `competitor-buyer-sweep` bring new evidence in from calls, chat and competitor sites. `buyer-research` files buyer quotes into themes and `competitor-dossiers` files competitor intel. `competitive-matrices` turns both into ratings, the communication matrix and the differentiation reference. When your own product ships, `product-capability-refresh` updates the capability baseline and `claim-propagation-sweep` fixes every doc that still says the old thing. `use-case-evidence-research`, `call-research-trend-analysis` and `research-data-charts` cut the same evidence by use case and over time. All of them read the same competitor, document-location and settled-decision section of `company-context.md`, and check quotes with `scripts/verify_quotes.py`.
+
+### Attribution
+
+`crm-channel-attribution-review` shows which channels produce pipeline and wins. `deal-source-verification` checks the deals those numbers rest on. `paid-media-roi-and-cac` puts spend against the result.
 
 ## How they fit together
 
@@ -161,6 +189,26 @@ tracking-audit-punch-list/SKILL.md  P0/P1/P2 in shorthand, confirmed-firing rule
 
 exec-tl-context-file/SKILL.md       coverage audit, open questions, the context file's 14 sections
 exec-post-skeletons-from-buyer-research/SKILL.md  synthesis, skeleton format, evidence and voice rules
+
+competitive-intel-system/SKILL.md        the hub: doc set, sources, cadence, how the research skills connect
+competitor-dossiers/SKILL.md             fixed dossier format, themes, emerging signals, cleanup
+competitive-matrices/SKILL.md            baseline, ratings, comms matrix, differentiation reference, tracker
+buyer-research/SKILL.md                  VOC library, pillars, objections, personas, use-case cuts
+buyer-call-synthesis/SKILL.md            call mining, product-line screening, quote verification
+use-case-evidence-research/SKILL.md      evidence per use case, checked against the baseline
+call-research-trend-analysis/SKILL.md    fixed rubric, shares, quarterly trends
+research-data-charts/SKILL.md            charts from the research data
+claim-propagation-sweep/SKILL.md         find and fix every doc carrying an old fact
+
+crm-channel-attribution-review/SKILL.md  channel attribution from the CRM
+deal-source-verification/SKILL.md        checks the deals behind the channel numbers
+paid-media-roi-and-cac/SKILL.md          spend against pipeline and wins
+founder-pov-concepts/SKILL.md            high-level exec POV concepts
+teach-then-sell-video-scripts/SKILL.md   short video ad scripts
+education-video-prep/SKILL.md            long-form how-to video prep
+
+company-context.md                       the one file you fill in per company
+scripts/verify_quotes.py                 checks every quote against its source transcript
 
 employee-linkedin-posts/
   SKILL.md                        intake, content lanes, post mix, profile guidance
