@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ad Creative Direction"
+  short_description: "Turn ad angles into clear visual concepts"
+  default_prompt: "Use $ad-creative-direction to help develop our company’s advertising from the supplied brief and source materials."
