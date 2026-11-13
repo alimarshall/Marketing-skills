@@ -9,6 +9,10 @@ A style rule that is only checked by reading is not checked. The characteristic 
 
 This skill exists to make the check mechanical, so the output is a list of found strings rather than a claim of cleanliness.
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 ## Step 1: Get the rule set as literal strings
 
 House style rules come in two shapes. Only one is greppable.
