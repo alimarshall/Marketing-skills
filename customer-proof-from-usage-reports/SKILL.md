@@ -9,12 +9,9 @@ A usage report is the strongest proof a B2B product has, and the easiest to dama
 
 ## Inputs
 
-Fill in once:
+Read `company-context.md` first (repo root, or search the workspace for it). This skill uses: customer proof folder, jobs/industries reference (personas and verticals), capability catalogue and incomplete-claims list, consent tracker, house style.
 
-- Where customer proof files are saved: `<fill in>`
-- Persona / vertical reference (who the buyers are, what each cares about): `<fill in>`
-- Capability baseline, including claims known to be incomplete or retired: `<fill in>`
-- Consent or approval tracker for named-customer use: `<fill in>`
+If the file or a line is missing, ask once, then offer to save the answer to `company-context.md` (create it from the repo template if needed). Never fill a gap with an assumption about the company.
 
 ## Workflow
 
@@ -65,6 +62,14 @@ Pick the 3-4 stats per persona that answer their question. Don't send every numb
 
 ### 7. Save and link
 Append drafted outputs to the same stats file under a dated heading, with the mapping logic. Add a pointer from the persona or vertical reference so "what proof do we have for X" finds it.
+
+## Works with
+
+- **Feeds `vertical-persona-research`** (Part 4, customer proof by vertical) and **`abm-account-multithread`** (the proof column for each person).
+- **Hands off** to a one-pager, sales-deck or case-study skill for the asset, and to a fact-check skill before anything external.
+- **When a figure is corrected or updated**, run a claim-sweep skill to replace the old number everywhere it was used.
+
+Skills named here are optional. If one isn't installed, do that step inline and say so.
 
 ## Checks before handover
 
