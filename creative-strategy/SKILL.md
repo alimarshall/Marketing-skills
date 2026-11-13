@@ -20,6 +20,10 @@ Four rules carry more weight here than anywhere else:
 
 **First run:** fill in `references/inputs.md` with your own document paths, and fill in the constraint tables in `angle-library.md` and `hooks-and-mechanics.md` against your own brand rules. Those two edits are what turn a generic method into yours.
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company. If `creative-strategy/references/inputs.md` is also filled in, it still applies; where the two differ, `company-context.md` wins.
+
 ## Step 0: Scope it in one pass
 
 Work this out without stopping to ask unless genuinely ambiguous, then state the read in one line and proceed.
