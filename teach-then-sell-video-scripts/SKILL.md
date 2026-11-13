@@ -9,6 +9,8 @@ For expert, founder or salesperson-led videos on Meta, LinkedIn or YouTube that 
 
 ## Inputs
 
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 - Company and product: `<fill in>`
 - Topic and buyer (job title): `<fill in>`
 - Presenter: `<fill in>`
