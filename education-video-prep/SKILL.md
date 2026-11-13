@@ -9,6 +9,8 @@ Turns one buyer problem into a fully prepped long-form how-to video that teaches
 
 ## Inputs
 
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 - Company and product: `<fill in>`
 - The one problem this video solves: `<fill in>`
 - Who it's for (buyer job titles): `<fill in>`
