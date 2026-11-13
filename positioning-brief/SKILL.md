@@ -11,6 +11,10 @@ The failure it exists to prevent: confident copy for a claim nobody verified, ai
 
 **Never invent a product fact, a customer quote, a statistic, or a competitor capability.** Everything traceable, or flagged. A brief that says less and holds up beats one that says more and gets caught.
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company. If `creative-strategy/references/inputs.md` is also filled in, it still applies; where the two differ, `company-context.md` wins.
+
 ## Step 0: Scope it in one pass
 
 Settle three things without stopping to ask unless genuinely ambiguous:
