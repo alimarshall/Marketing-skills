@@ -9,6 +9,8 @@ Short concept bullets a founder or exec can riff on for camera or LinkedIn. High
 
 ## Inputs
 
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 - Company and speaker: `<fill in>`
 - Topics (one concept each): `<fill in>`
 - Buyer research and quote library: `<fill in>`
