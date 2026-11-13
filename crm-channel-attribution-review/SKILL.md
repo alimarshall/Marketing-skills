@@ -9,6 +9,8 @@ Answers "which channels are actually working" from the CRM. Every number comes f
 
 ## Inputs
 
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 - CRM and the account to use: `<fill in>`
 - Rep-set source fields (e.g. Source Group, Source of Deal): `<fill in>`
 - Pipelines that count as new business, and any to exclude (renewals, expansions): `<fill in>`
