@@ -1,5 +1,5 @@
 ---
-name: "pillar-landing-pages"
+name: pillar-landing-pages
 description: "Split one product positioning brief into several landing-page briefs, one per capability, pillar or sub-product, each with its own URL, its own keyword research and full hero-to-CTA copy. Use whenever the user wants a separate landing page per feature or pillar, says each of these needs its own page, or wants to expand a positioning doc into page-level briefs. Builds only on existing evidence (never invents claims), runs fresh keyword research per page, and flags pages whose evidence is thinner than their siblings. Third step of a four-skill set: takes capability-pillar-research and use-case-evidence-research output; claim-propagation-sweep keeps it current."
 ---
 
@@ -9,9 +9,9 @@ Expands one positioning brief covering several capabilities, pillars or sub-prod
 
 ## Works with
 
-- **Takes in:** a positioning brief, the pillar docs from capability-pillar-research, and the evidence docs from use-case-evidence-research. Approved claims and lead features come from competitive-matrices, customer stats from customer-proof-from-usage-reports. Every claim on every page must trace back to these.
+- **Takes in:** a positioning brief, the pillar docs from capability-pillar-research, and the evidence docs from use-case-evidence-research. Every claim on every page must trace back to these.
 - **Produces:** one page brief per pillar, with claim tags carried through, plus a combined parent page if asked.
-- **Next:** copywriting and design. Each page is also the landing page for the matching ad group in use-case-ad-variations, so keep the page headline and the ad's claim in step. Run claim-propagation-sweep across these briefs whenever a product fact changes.
+- **Next:** copywriting and design. Run claim-propagation-sweep across these briefs whenever a product fact changes.
 
 If the pillar or evidence docs don't exist, build them first rather than writing pages from memory.
 
@@ -64,5 +64,3 @@ A combined page lets the strongest two or three capabilities carry it while weak
 4. **claim-propagation-sweep**: runs whenever a product fact changes, across everything steps 1-3 produced, and feeds corrections back into the evidence docs.
 
 Outputs of one step are the inputs of the next. If you're asked for a later step and the earlier output doesn't exist, build the earlier step first (or tell the user it's missing) rather than writing from memory.
-
-The wider marketing-skills set builds on the same docs: buyer-research feeds step 1, competitive-matrices holds the approved claims, and use-case-ad-variations, teach-then-sell-video-scripts and education-video-prep turn the evidence into ads and video. Claim tags mean the same thing in every skill.
