@@ -7,6 +7,10 @@ description: "Build and maintain the comparison layer for a B2B product: a maste
 
 Placeholders: **[Product]** (one row or column per product line), **[Competitors]**, **[Repo]**, **[Wiki]**.
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 ## Works with
 
 - **Takes in:** product docs and release notes, competitor-dossiers, buyer research and the VOC library.
