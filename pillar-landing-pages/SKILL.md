@@ -7,6 +7,10 @@ description: "Split one product positioning brief into several landing-page brie
 
 Expands one positioning brief covering several capabilities, pillars or sub-products into standalone landing-page briefs, one per pillar, each with its own URL, keyword targeting and copy from hero to final CTA.
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 ## Works with
 
 - **Takes in:** a positioning brief, the pillar docs from capability-pillar-research, and the evidence docs from use-case-evidence-research. Every claim on every page must trace back to these.
