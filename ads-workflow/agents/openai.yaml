@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ads Workflow"
+  short_description: "Coordinate research, copy, creative and review"
+  default_prompt: "Use $ads-workflow to help develop our company’s advertising from the supplied brief and source materials."
