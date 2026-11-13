@@ -13,12 +13,15 @@ Brand-agnostic Claude skills for B2B SaaS product marketing. One shared rule: ne
 | [`crm-channel-attribution-review`](./crm-channel-attribution-review) | Channel attribution from the CRM: closed-won and lead sources, brand vs non-brand paid, YoY and period-over-period funnel by channel, data gaps and deck lines | "which channels are working", "attribution for our last 100 deals", "qualified leads vs last period" |
 | [`deal-source-verification`](./deal-source-verification) | Check whether deals tagged to a channel really came from it, from the emails, notes and calls behind each one; verdicts with dated quotes and recomputed numbers | "was this deal actually from an event", "check the events deals in the pipeline" |
 | [`paid-media-roi-and-cac`](./paid-media-roi-and-cac) | Pull spend from LinkedIn and Google Ads by period and match it to CRM pipeline and wins: pipeline per £1, return on spend, cost per lead, media-only CAC | "LinkedIn ROAS", "what's our CAC", "events return on spend" |
+| [`founder-pov-concepts`](./founder-pov-concepts) | High-level founder or exec POV concepts from buyer research: what's changing, two points, what I think, what it means, one usable quote or stat | "concepts for our CEO", "founder video ideas", "keep it high level" |
+| [`teach-then-sell-video-scripts`](./teach-then-sell-video-scripts) | Short talking-head video ad scripts that teach first and bring the product in as proof: stacked hooks, timed tables, 30-second cuts, hook test plan | "video ad script", "thought leadership video", "cut this to 30 seconds" |
+| [`education-video-prep`](./education-video-prep) | Prep a 12 to 18 minute how-to video: run of show, presenter split, talking points, story prompts, product mentions where they fit, prep-call questions, claims check, shoot plan | "prep this video", "run of show", "talking points for the presenters" |
 
 ## How they fit together
 
 `vertical-persona-research` builds the industry and function view. `abm-account-multithread` applies it to one named account. `customer-proof-from-usage-reports` produces the proof both of them map to each persona. `tracking-audit-punch-list` makes sure the campaigns built on all of this can be measured.
 
-`crm-channel-attribution-review` shows which channels produce pipeline and wins. `deal-source-verification` checks the deals those numbers rest on. `paid-media-roi-and-cac` puts spend against the result.
+`crm-channel-attribution-review` shows which channels produce pipeline and wins. `deal-source-verification` checks the deals those numbers rest on. `paid-media-roi-and-cac` puts spend against the result. The three video skills turn the same research and proof into content: `founder-pov-concepts` for exec takes, `teach-then-sell-video-scripts` for short ads, and `education-video-prep` for long-form how-to videos.
 
 ## Setup
 
