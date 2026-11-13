@@ -1,5 +1,5 @@
 ---
-name: "claim-propagation-sweep"
+name: claim-propagation-sweep
 description: "When a product fact changes (a feature ships, a gap closes, a number is corrected, a capability is retired), find every doc, ad bank, landing-page brief, sales asset and wiki page that still states the old fact, then fix or flag it. Use whenever the user says a feature just shipped, is now live, we can now do something, a number is wrong, something was retired, asks to update everything that says X or find anywhere we still claim X, or shares release notes. Catches direct contradictions and indirect ones (gaps lists, FAQ answers, competitor comparisons, ads built on the gap). Fourth skill of a four-skill set: sweeps the output of use-case-evidence-research, capability-pillar-research and pillar-landing-pages, and feeds corrections back into them."
 ---
 
@@ -13,7 +13,6 @@ Why it matters: an ad or one-pager that states a gap after it has closed costs d
 
 - **Takes in:** the change (release note, roadmap update, product meeting), plus everything the other three skills produced: evidence docs, pillar docs, page briefs, and any ad banks, one-pagers and wiki pages built from them.
 - **Produces:** corrected docs, a flag list for assets that need a decision, and a list of live assets to change by hand.
-- **Also sweeps:** the capability baseline, matrices and differentiation reference (competitive-matrices), competitor dossiers, customer proof files (customer-proof-from-usage-reports), ad banks (use-case-ad-variations), live ads (chatgpt-ads-b2b-operator) and video scripts or prep docs.
 - **Feeds back into:** use-case-evidence-research (update the capability section and any "gaps" themes) and capability-pillar-research (a capability may move pillar or change strength).
 
 ## 1. Pin down the change
@@ -90,5 +89,3 @@ The change as pinned down; fixed (location, old line, new line); flagged for a d
 4. **claim-propagation-sweep**: runs whenever a product fact changes, across everything steps 1-3 produced, and feeds corrections back into the evidence docs.
 
 Outputs of one step are the inputs of the next. If you're asked for a later step and the earlier output doesn't exist, build the earlier step first (or tell the user it's missing) rather than writing from memory.
-
-The wider marketing-skills set builds on the same docs: buyer-research feeds step 1, competitive-matrices holds the approved claims, and use-case-ad-variations, teach-then-sell-video-scripts and education-video-prep turn the evidence into ads and video. Claim tags mean the same thing in every skill.
