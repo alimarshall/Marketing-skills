@@ -1,5 +1,5 @@
 ---
-name: "capability-pillar-research"
+name: capability-pillar-research
 description: "Regroup buyer research and a product's real capability or jobs catalogue into verb-based behavioural pillars (for example Acts, Answers, Resolves, Collaborates, Analyzes) instead of organising by feature, module or agent. Use whenever the user wants research organised by what the product actually does, asks for pillar or capability docs, wants a jobs-per-function breakdown (People, IT, Finance), or is about to write positioning or landing pages for a multi-capability product. Always cross-checks buyer quotes against the real capability catalogue, since quotes alone undersell scope. Second step of a four-skill set: takes use-case-evidence-research output, feeds pillar-landing-pages."
 ---
 
@@ -11,7 +11,7 @@ Turns buyer research and product documentation into a small set of verb-based pi
 
 - **Takes in:** the per-use-case evidence docs from use-case-evidence-research (preferred), or raw buyer research plus the product's real capability or jobs catalogue.
 - **Produces:** one pillar doc per verb, with an honest strength rating for each pillar.
-- **Next:** pillar-landing-pages, or a positioning brief. Pillar strength ratings also tell use-case-ad-variations and competitive-matrices which capabilities can lead. Run claim-propagation-sweep when a capability listed in a pillar changes.
+- **Next:** pillar-landing-pages, or a positioning brief. Run claim-propagation-sweep when a capability listed in a pillar changes.
 
 ## Why pillars, not features or modules
 
@@ -69,5 +69,3 @@ If the catalogue doesn't exist as a document, build it first (use-case-evidence-
 4. **claim-propagation-sweep**: runs whenever a product fact changes, across everything steps 1-3 produced, and feeds corrections back into the evidence docs.
 
 Outputs of one step are the inputs of the next. If you're asked for a later step and the earlier output doesn't exist, build the earlier step first (or tell the user it's missing) rather than writing from memory.
-
-The wider marketing-skills set builds on the same docs: buyer-research feeds step 1, competitive-matrices holds the approved claims, and use-case-ad-variations, teach-then-sell-video-scripts and education-video-prep turn the evidence into ads and video. Claim tags mean the same thing in every skill.
