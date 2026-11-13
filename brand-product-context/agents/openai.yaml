@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brand & Product Context"
+  short_description: "Build reusable company and product context"
+  default_prompt: "Use $brand-product-context to help develop our company’s advertising from the supplied brief and source materials."
