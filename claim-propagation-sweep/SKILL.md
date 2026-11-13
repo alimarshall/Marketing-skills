@@ -9,6 +9,10 @@ A fact about the product has changed. Somewhere there are docs, ads and pages th
 
 Why it matters: an ad or one-pager that states a gap after it has closed costs deals and credibility, and nobody notices because the team updating product docs isn't the team running the ads.
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 ## Works with
 
 - **Takes in:** the change (release note, roadmap update, product meeting), plus everything the other three skills produced: evidence docs, pillar docs, page briefs, and any ad banks, one-pagers and wiki pages built from them.
