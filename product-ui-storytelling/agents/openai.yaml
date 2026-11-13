@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product UI Storytelling"
+  short_description: "Show credible product actions and outcomes"
+  default_prompt: "Use $product-ui-storytelling to help develop our company’s advertising from the supplied brief and source materials."
