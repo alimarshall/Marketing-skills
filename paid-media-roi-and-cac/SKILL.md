@@ -9,6 +9,8 @@ Turns ad platform spend plus CRM outcomes into channel economics. Never invent s
 
 ## Inputs
 
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 - Ad account links (LinkedIn Campaign Manager, Google Ads, others): `<fill in>`
 - Account currencies and the conversion rate finance uses: `<fill in>`
 - Event costs per event, or who holds them: `<fill in>`
