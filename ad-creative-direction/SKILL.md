@@ -18,6 +18,10 @@ Read the approved angle, buyer, supporting copy, claim limits, brand references 
 
 Mixed treatments should add meaning. Do not put UI on every photograph or force every concept into a card. Match the requested number of concepts and final assets; do not expand a brief into an unsolicited batch.
 
+Read [Angle to visual](references/angle-to-visual.md) when selecting or reviewing a treatment. Write one sentence connecting the buyer tension to what the viewer sees. A suitable brand aesthetic is not enough if the scene tells a different story.
+
+For photographic work, read [Photos: source, create and use](references/photos.md). Decide whether to use supplied photography, licensed stock, a shoot or generation; then brief the moment, composition and crops before sourcing or creating the image.
+
 ## Compose for the placement
 
 Establish headline, supporting line, focal subject and product/proof hierarchy. Reserve space for platform overlays and the requested CTA policy. Use a mobile-size preview to assess reading, not only the full-resolution canvas. Favor fewer readable elements over shrinking type.
