@@ -7,6 +7,10 @@ description: "Build and maintain buyer research and a VOC (voice of customer) qu
 
 Placeholders: **[Product]** (one buyer research page per product line), **[Call platform]**, **[Repo]**, **[Wiki]**.
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 ## Works with
 
 - **Takes in:** call transcripts (call platform), sales channel intel, CRM win/loss notes.
