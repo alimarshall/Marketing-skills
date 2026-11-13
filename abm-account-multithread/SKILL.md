@@ -9,12 +9,9 @@ Single-threaded deals die when the one contact goes quiet, loses the budget figh
 
 ## Inputs
 
-- CRM (account, contacts, deals, activity, owner): `<fill in>`
-- Call recording platform: `<fill in>`
-- Persona / vertical reference (from `vertical-persona-research`): `<fill in>`
-- Customer proof files, with consent status: `<fill in>`
-- Capability baseline: `<fill in>`
-- Enrichment or people-data source, if any: `<fill in>`
+Read `company-context.md` first (repo root, or search the workspace for it). This skill uses: CRM, call recording platform, the jobs/industries reference file, customer proof files and consent tracker, capability catalogue, account plans folder.
+
+If the file or a line is missing, ask once, then offer to save the answer to `company-context.md` (create it from the repo template if needed). Never fill a gap with an assumption about the company.
 
 ## Workflow
 
@@ -62,6 +59,15 @@ One short opener per thread: the hook built from their frustration or signal, th
 
 ### 6. Save it
 One file per account: `ABM-<Account>-<YYYY-MM-DD>.md` with signals (sourced and dated), the committee map, sequencing, openers, and an "unknowns to fill" list. Write new contacts or roles back to the CRM only with the user's go-ahead.
+
+## Works with
+
+- **Reads `vertical-persona-research` output**: the account's industry section and committee map. If that industry has no section yet, run the industry lens for it first, or build the map from this account's own evidence and add it back to the reference afterwards.
+- **Reads `customer-proof-from-usage-reports` output** for the proof column, using only what the consent tracker allows externally.
+- **Hands off** openers to an outbound, cold-email or sequence skill for full sequences, and forwardable assets to a one-pager or sales-deck skill.
+- **Writes back**: new persona insight from this account goes into the vertical reference, so the next account in the industry starts further ahead.
+
+Skills named here are optional. If one isn't installed, do that step inline and say so.
 
 ## Checks before handover
 
