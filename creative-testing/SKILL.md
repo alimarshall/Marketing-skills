@@ -17,6 +17,8 @@ The constraint that shapes everything here is **volume**. LinkedIn B2B audiences
 
 ## Inputs
 
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company. If `creative-strategy/references/inputs.md` is also filled in, it still applies; where the two differ, `company-context.md` wins.
+
 This skill reads and writes the same documents as `creative-strategy`. Their locations are recorded once in `creative-strategy/references/inputs.md`; look them up there rather than asking each time. The ones this skill touches:
 
 - **Creative learning log.** Append-only, one entry per concept that goes live. `creative-strategy` opens entries; this skill closes them.
