@@ -16,6 +16,10 @@ Four claim types carry risk, and each fails differently:
 | **Statistics and dates** | Cites a number whose source has gone stale or never existed |
 | **Competitor capability** | States something about another company that is out of date or was never verified |
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 ## Step 1: Extract every claim
 
 Go through the document and list each factual assertion separately. A sentence can contain three claims. Split them.
