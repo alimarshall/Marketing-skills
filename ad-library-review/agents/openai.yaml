@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ad Library & Review"
+  short_description: "Keep creative versions and feedback aligned"
+  default_prompt: "Use $ad-library-review to help develop our company’s advertising from the supplied brief and source materials."
