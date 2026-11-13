@@ -11,6 +11,10 @@ The two failure modes this skill exists to prevent:
 1. **Quotes that aren't real.** Paraphrases drift into quotation marks, or a vendor's own salesperson gets quoted as if they were the buyer. Every quote is checked by script against the raw sources before the doc is done.
 2. **Docs that read like a change log.** "Updated 3 Oct", "added after the sweep", "NEW", "v2". Readers want a finished reference.
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 ## Works with
 
 - **Takes in:** product docs (capability lists, roadmaps, specs, release notes), call transcripts, any voice-of-customer library, existing use-case docs.
