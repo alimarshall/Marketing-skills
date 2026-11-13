@@ -21,6 +21,12 @@ All three lenses use the same evidence base, so build it once and slice it three
 - **Produces:** a jobs-per-function view, an industry view and a buying-committee persona map, each with quotes and proof.
 - **Next:** abm-account-multithread (applies the persona map to one named account), customer-proof-from-usage-reports (maps stats to each persona), use-case-ad-variations (role and situation wording for hints), pillar-landing-pages.
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it). This skill uses: capability catalogue, buyer research and persona docs, call recording platform, CRM, customer proof files, the jobs/industries reference file, house style, evidence bar.
+
+If the file or a line is missing, ask once, then offer to save the answer to `company-context.md` (create it from the repo template if needed). Never fill a gap with an assumption about the company.
+
 ## Step 0: Check what already exists
 
 Before researching, look for an existing reference file (search the workspace and notes vault for "jobs", "industries", "verticals", "personas", "buyer context", "ICP"). If one exists:
