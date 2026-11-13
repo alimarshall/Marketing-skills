@@ -17,6 +17,10 @@ A sales persona that says "cares about compliance" is fine for a call plan and u
 
 **Where things live.** The avatar library, the pain bank and the buyer research this skill reads are all named in the companion `creative-strategy` skill's `references/inputs.md`. Fill that in once and both skills work. If it is not filled in, ask for the paths rather than guessing.
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company. If `creative-strategy/references/inputs.md` is also filled in, it still applies; where the two differ, `company-context.md` wins.
+
 ## Step 0: Which mode
 
 Say which in one line, then proceed.
