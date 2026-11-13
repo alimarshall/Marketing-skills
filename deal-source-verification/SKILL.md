@@ -9,6 +9,8 @@ Rep-set source fields are often wrong. An event invite used as an outreach opene
 
 ## Inputs
 
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 - CRM and the deals or channel to check: `<fill in>`
 - The counting rule for the channel (agree it before checking, see step 1): `<fill in>`
 - Where activity lives (CRM emails, notes, meetings, call recording summaries): `<fill in>`
