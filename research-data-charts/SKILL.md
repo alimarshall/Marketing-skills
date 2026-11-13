@@ -7,6 +7,10 @@ description: "Build social-ready charts from buyer research in a brand palette: 
 
 Use when someone wants a chart from buyer or customer research for LinkedIn, a deck or a report ("make a graph", "chart this", "over time", "in our brand colours").
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 ## Works with
 
 - **Takes in:** tagged shares and trends from call-research-trend-analysis, or any table of research figures, plus the brand palette.
