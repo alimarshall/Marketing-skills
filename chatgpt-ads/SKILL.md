@@ -9,6 +9,8 @@ Use for anything on ChatGPT Ads: new ads or ad groups, context hints, bids and b
 
 ## Inputs
 
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company. If `creative-strategy/references/inputs.md` is also filled in, it still applies; where the two differ, `company-context.md` wins.
+
 Record your own paths in `creative-strategy/references/inputs.md`. This skill needs:
 
 - **Operator playbook:** `<fill in>` (your own running notes on this channel: platform facts as you last verified them, your thresholds, what you have learned).
