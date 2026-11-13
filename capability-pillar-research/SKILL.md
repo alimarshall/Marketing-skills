@@ -7,6 +7,10 @@ description: "Regroup buyer research and a product's real capability or jobs cat
 
 Turns buyer research and product documentation into a small set of verb-based pillar docs, one per behaviour the product performs (for an AI agent product, for example: Acts, Answers, Resolves, Collaborates, Analyzes). Each pillar doc becomes the ground truth for positioning and landing pages, so get it right before any copy is written.
 
+## Inputs
+
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
+
 ## Works with
 
 - **Takes in:** the per-use-case evidence docs from use-case-evidence-research (preferred), or raw buyer research plus the product's real capability or jobs catalogue.
