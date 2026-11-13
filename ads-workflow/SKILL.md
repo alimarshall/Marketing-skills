@@ -21,11 +21,25 @@ Choose only the stages that add value. For a headline revision, use the existing
 | Buyer evidence and messaging | `buyer-research-to-ads` | Evidence bank, buyer tensions, use-case map, distinct angles and copy |
 | Useful patterns from reference ads | `competitor-ad-analysis` | Transferable principles and original directions; optional input |
 | Verified outcomes and customer stories | `customer-proof-to-ads` | Scoped proof record and proof-led angles; when evidence exists |
-| Composition and asset production | `ad-creative-direction` | Visual rationale, production brief and requested artwork |
+| Composition and asset production | `ad-creative-direction` | Angle-to-visual rationale, photo brief and provenance when relevant, production brief and requested artwork |
 | Realistic product experience | `product-ui-storytelling` | Sourced request/action/decision/result sequence; only for product UI |
 | Versions, feedback and delivery | `ad-library-review` | Current manifest, review surface, synchronized exports |
 
 Load the relevant companion skill from the installed skill catalog when it is available. These names describe responsibilities, not a requirement to spawn agents or install tools. If a companion is unavailable, perform the necessary work directly and disclose only consequential limitations. Do not rely on absolute machine paths or assumed connectors.
+
+## Connect the angle, visual and photography
+
+When the assignment includes visual concepts, artwork or a visual revision, load `ad-creative-direction` and read its `references/angle-to-visual.md` before choosing or reviewing the treatment. Resolve that reference from the companion skill's discovered location, not the campaign folder. Reading only its name in the routing table is not enough.
+
+Carry the selected avatar, awareness state, buyer tension, supported product job, angle and proof into a visual job: because this ad is about this tension or opportunity, show this moment, artifact or relationship so the viewer understands this change. Use that sentence to choose the scene and composition. Keep Creative Strategy's approved campaign decisions and the company's brand rules when those govern the assignment.
+
+If photography is selected or an existing photo is being revised, also read `ad-creative-direction`'s `references/photos.md` before sourcing, generating, editing or composing it. Brief the actual moment, action, setting, mood, subject position, copy/UI space and placement crops. Decide between approved photography, licensed stock, a shoot and generation according to the brief. Carry source/licence or generation provenance and usage limits forward. Use the relevant image-generation skill/tool when generation or editing is requested; these references do not generate an image by themselves.
+
+Pass the visual job and photo brief to production with the concept ID. When product UI helps, also load `product-ui-storytelling` and pass actual interface sources and the supported request/action/decision/result sequence. Photography alone remains a valid choice; do not add UI to every photo or force photography into a type, diagram or product-led concept. A copy-only task does not need these visual references.
+
+Before scaling or delivering, review the actual composition against the angle-to-visual fit checks. For photographic work, apply the photo guide's realism, crop, provenance and overlay checks too. Confirm the scene, copy and product state tell the same story at mobile size. Pass the selected treatment, asset IDs, acceptance status and revision scope to `ad-library-review` so changes reach every affected active export.
+
+If either reference is unavailable, state that limitation and use the same core checks inline: visual fit to the buyer tension and product promise, a specific photo brief when relevant, supported UI, source provenance and mobile legibility. Do not claim to have read a missing guide.
 
 ## Carry context across stages
 
@@ -40,4 +54,3 @@ Start with a useful range of distinct directions when the brief is open; do not 
 Route copy feedback to the angle, UI feedback to state and interface fidelity, photographic feedback to imagery and composition, and library feedback to source/exports/review consistency. Apply systemic feedback across affected active assets while protecting accepted work.
 
 Check evidence and copy before rendering, then inspect actual rendered outputs. Confirm mobile legibility, faces, accurate UI states, asset provenance and current versions where applicable. State coverage gaps and unresolved claims plainly. Deliver finished files or a usable review entry point, with a brief account of what was created and what still needs a decision. Do not claim publication or approval that did not occur.
-
