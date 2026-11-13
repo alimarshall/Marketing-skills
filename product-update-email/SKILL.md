@@ -13,6 +13,8 @@ The update is a recurring piece of work with a fixed shape (same sender, same vo
 
 ## Inputs
 
+Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company. If `creative-strategy/references/inputs.md` is also filled in, it still applies; where the two differ, `company-context.md` wins.
+
 Record these once (in `creative-strategy/references/inputs.md`, or here) so every run starts from the same places:
 
 - **Sender name, title and email address:** `<fill in>`
