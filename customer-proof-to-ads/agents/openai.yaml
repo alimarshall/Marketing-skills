@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Proof to Ads"
+  short_description: "Build campaigns from verified customer proof"
+  default_prompt: "Use $customer-proof-to-ads to help develop our company’s advertising from the supplied brief and source materials."
