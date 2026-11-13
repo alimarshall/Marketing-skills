@@ -2,7 +2,7 @@
 
 Claude skills for B2B SaaS product marketing. Positioning, paid creative, content planning, and the verification discipline that keeps all three honest.
 
-Forty skills, one shared spine: **never invent a product fact, a customer quote, a stat or a competitor capability.**
+One shared spine: **never invent a product fact, a customer quote, a stat or a competitor capability.**
 
 ## The skills
 
@@ -20,6 +20,14 @@ Forty skills, one shared spine: **never invent a product fact, a customer quote,
 | [`ad-avatars`](./ad-avatars) | Build a new ad avatar, or refresh the standing avatar library as new evidence lands | "build an avatar for the economic buyer", "refresh the avatars", "we have sign-off now" |
 | [`creative-testing`](./creative-testing) | Design the test plan for paid creative and read results honestly at B2B budget scale: naming, the diagnostic ladder, fatigue, attribution, the learning log | "is this ad working", "how do we test these", "should we kill this ad" |
 | [`chatgpt-ads`](./chatgpt-ads) | Operate ChatGPT Ads: setup, tracking, context hints, copy, bidding, weekly reads, keep or kill calls, competitor checks | "set up ChatGPT ads", "write context hints", "weekly ChatGPT ads read" |
+| [`ads-workflow`](./ads-workflow) | Coordinate an ad project from company context and buyer evidence through strategy, copy, production and versioned review | "take this research through to a reviewable ad set", "which ad skill should I use" |
+| [`brand-product-context`](./brand-product-context) | Build a source-linked brief covering positioning, verified capabilities, voice, brand assets and actual product UI | "build the company context for our ads", "refresh our brand and product brief" |
+| [`buyer-research-to-ads`](./buyer-research-to-ads) | Turn verified buyer pains, aspirations and use-case evidence into distinct angles, headlines, supporting copy and captions | "turn these buyer quotes into ad angles", "write ads for each use case" |
+| [`competitor-ad-analysis`](./competitor-ad-analysis) | Extract useful messaging and visual principles from reference ads, then develop original directions for the current company | "what makes these reference ads work", "adapt this approach to our brand" |
+| [`customer-proof-to-ads`](./customer-proof-to-ads) | Turn verified customer results into scoped proof-led campaigns, including specific moments and time-of-day stories | "make ads from these verified stats", "develop proof-led angles" |
+| [`ad-creative-direction`](./ad-creative-direction) | Turn an approved angle into photography, typography, product or diagram concepts and requested production assets | "brief the visuals", "make this easier to read on mobile" |
+| [`product-ui-storytelling`](./product-ui-storytelling) | Shape credible product sequences showing a request, action, approval and supported result using the real interface | "show the whole product experience", "fix the UI sequence in this ad" |
+| [`ad-library-review`](./ad-library-review) | Maintain concept IDs, copy, versions, feedback, exports and a coherent review gallery | "show all versions in one tab", "apply this feedback across the active ads" |
 
 ### Pages and collateral
 
@@ -98,7 +106,7 @@ Forty skills, one shared spine: **never invent a product fact, a customer quote,
 
 ## Using these for any company
 
-Every skill reads [`company-context.md`](./company-context.md) first: the company, products, capability baseline, evidence sources, output folders and house style. Fill it in once. For a different company, copy the file and fill it in for that company. No skill hard-codes a brand, product, customer or tool, so nothing else changes. If a line is blank, the skill asks once and offers to save the answer back.
+Use [`company-context.md`](./company-context.md) as the shared starting point: the company, products, capability baseline, evidence sources, output folders and house style. Fill it in once. For a different company, copy the file and fill it in for that company. No skill hard-codes a brand, product, customer or tool, so nothing else changes. If a line is blank, the skill asks once and offers to save the answer back.
 
 ### The buyer research loop
 
@@ -126,6 +134,49 @@ Every skill reads [`company-context.md`](./company-context.md) first: the compan
 
 A few skills hand off to general marketing skills that are not in this repo (`paid-ads`, `page-cro`, `ad-creative`, `ab-test-setup`, `analytics-tracking`, `gong-transcripts`). They work without them; the hand-off just names where that job goes if you have one installed.
 
+## Ads Workflow: research to reviewed creative
+
+Start with [`ads-workflow`](./ads-workflow/SKILL.md) when the job spans several stages. It coordinates the relevant skills and carries context between them. The existing research, avatar and strategy skills keep their specialist responsibilities. A copy edit can start with the current brief; a visual revision can start with the accepted concept. Neither needs a fresh research project.
+
+### Who owns what
+
+| Layer | Skills | What carries forward |
+|---|---|---|
+| Company and product truth | [`brand-product-context`](./brand-product-context), [`capability-boundary-map`](./capability-boundary-map), [`positioning-brief`](./positioning-brief) | Current brand guidance, verified capabilities and limits, settled positioning |
+| Standing buyer evidence | [`buyer-call-synthesis`](./buyer-call-synthesis), [`buyer-research`](./buyer-research), [`use-case-evidence-research`](./use-case-evidence-research), [`vertical-persona-research`](./vertical-persona-research) | Source-linked quotes, pains, aspirations, objections, use-case and industry context |
+| Ad audience profiles | [`ad-avatars`](./ad-avatars) | Evidenced avatar IDs, working situations, committee seats, triggers, awareness states, language, consent and framings to avoid |
+| Campaign decisions | [`creative-strategy`](./creative-strategy) | Selected avatars and angles, differentiation, awareness deployment, budget-sized concept set, strategy and production briefs |
+| Research-led copy | [`buyer-research-to-ads`](./buyer-research-to-ads) | Traceable angles and specific headlines, supporting lines and captions within the campaign brief |
+| Proof and references | [`customer-proof-to-ads`](./customer-proof-to-ads), [`competitor-ad-analysis`](./competitor-ad-analysis) | Scoped proof routes and original treatments informed by references |
+| Creative production | [`ad-creative-direction`](./ad-creative-direction), [`product-ui-storytelling`](./product-ui-storytelling) | Compositions, supported product sequences and requested assets |
+| Verification, review and learning | [`claim-verification`](./claim-verification), [`copy-register-check`](./copy-register-check), [`ad-library-review`](./ad-library-review), [`creative-testing`](./creative-testing) | Checked copy and claims, current review versions, then measured learning when a test has run |
+
+### A full campaign path
+
+1. **Reuse the shared context.** Read [`company-context.md`](./company-context.md) and the existing capability baseline, brand rules and approved assets. Brand & Product Context can fill or refresh the creative brief using those sources. Keep one source of truth; do not create a competing capability catalogue.
+2. **Close relevant research gaps.** The research skills maintain the evidence. Use-case and vertical research supply the relevant cuts. Pass source IDs, exact excerpts, context and usage restrictions forward. Buyer Research to Ads interprets that evidence for ads; it does not silently rewrite the VOC library.
+3. **Select or refresh avatars.** Ad Avatars owns the standing library. Creative Strategy and Ads Workflow consume the relevant entries. Route new evidence or a genuinely new audience situation back through the avatar build/refresh process, preserving its history and consent tags.
+4. **Make the campaign choices once.** Creative Strategy owns the campaign argument, awareness mix, concept selection, testable volume and briefs. Buyer Research to Ads can develop candidate routes and finished wording within that work. Keep the selected angle IDs and record rejected routes so production does not quietly reopen settled decisions.
+5. **Add proof or references where useful.** [`customer-proof-from-usage-reports`](./customer-proof-from-usage-reports) extracts and scopes the figures; Customer Proof to Ads turns that verified material into creative. Competitor dossiers and matrices inform positioning; Competitor Ad Analysis studies the ad treatment. Neither a reference ad nor an internal quote proves a product claim or ad performance.
+6. **Build the chosen experience.** Ad Creative Direction translates the brief into a composition. Product UI Storytelling shapes the supported request, action, decision and result when UI helps. Carry the actual interface sources and capability boundaries into production. On Creative Strategy jobs, follow its rule against mocked product screenshots and use approved actual product captures. Keep text as editable layers and check mobile reading size.
+7. **Verify and deliver a coherent set.** Run Claim Verification and Copy Register Check against the finished copy and current evidence. Ad Library & Review keeps the concept IDs, captions, source notes, previews, exports and feedback aligned. Preserve accepted work and remove rejected components from every active use.
+8. **Close the learning loop.** Creative Testing owns the test design and interpretation after delivery or launch. Feed measured findings into the learning log and route relevant avatar/research changes back to their owners. Producing a concept is not evidence that it works.
+
+### Shared handoffs and boundaries
+
+Carry one compact record per concept: concept ID, avatar ID, use case, awareness state, source IDs, buyer tension, angle, product job, proof and usage status, copy, visual direction, placement, version and review status. Preserve `SAFE`, `NEEDS VERIFY` and `INTERNAL ONLY` tags in internal records. Keep review notes outside customer-facing artwork unless a qualification is required for accuracy.
+
+The new ad skills are unbranded and can support software, goods or services. In this repository, use the existing company context, source restrictions, house style and campaign rules. Their more general defaults do not relax those requirements. For standalone work, a missing companion skill can be handled inline; use only the stages the assignment needs. These handoffs describe responsibilities, not automatic background execution or permission to publish ads, change spend or contact customers.
+
+### Example requests
+
+- **Full campaign:** "Use Ads Workflow with our buyer research and existing avatar library. Have Creative Strategy select a testable concept set, then develop the copy, visuals and review gallery."
+- **Use-case copy:** "Use Buyer Research to Ads for the selected avatar and use cases. Keep the current positioning and approved campaign angles."
+- **Proof-led creative:** "Use our verified customer proof file to develop stat-led routes, then brief the visuals and add the chosen versions to the review library."
+- **Visual revision:** "Keep the approved angle and photo. Fix the product sequence and mobile legibility, then update every affected active export."
+
+See [Project handoffs](./ads-workflow/references/project-handoffs.md) for the reusable records and shorter paths.
+
 ## Setup: two edits, once
 
 These skills invent nothing, which means they need your documents.
@@ -148,6 +199,17 @@ copy-register-check/SKILL.md        greppable rules, the manual pass, cut rather
 capability-boundary-map/SKILL.md    read / write / not-exposed, and the adjacent-sounding cases
 source-doc-writeback/SKILL.md       ground truth first, sweep, ownership, verified edits
 research-led-content-plan/SKILL.md  signals, usage cross-check, themes, calendar, signal-to-post map
+
+ads-workflow/SKILL.md               coordinates the research-to-review ad project
+ads-workflow/references/project-handoffs.md shared records and shorter paths
+brand-product-context/SKILL.md      source-linked brand, product and actual UI context
+buyer-research-to-ads/SKILL.md      evidence to angles, headlines, captions and briefs
+buyer-research-to-ads/references/   evidence mapping, writing examples, creative review
+competitor-ad-analysis/SKILL.md     reference principles to original creative directions
+customer-proof-to-ads/SKILL.md      scoped customer results to proof-led campaigns
+ad-creative-direction/SKILL.md      compositions, production briefs and requested assets
+product-ui-storytelling/SKILL.md    credible product sequences using the real interface
+ad-library-review/SKILL.md          concept IDs, feedback, versions, gallery and exports
 
 creative-strategy/
   SKILL.md                        the 12-step workflow
