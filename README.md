@@ -240,3 +240,23 @@ employee-linkedin-posts/
 ## Volume: pick the right branch
 
 The high-volume performance-creative canon and low-volume B2B reality are two disciplines sharing a job title, and averaging them produces guidance that fits neither. `creative-matrix.md` section 4 branches: sharply targeted B2B audiences at high CPMs get two ads per campaign, two full weeks minimum, and a call at 80 to 85 per cent confidence, because waiting for 95 at that volume means never deciding. The weekly conveyor and the concept-count tables belong to the other branch.
+
+
+## Evidence-to-pages workflow
+
+Four skills that run in order, from raw product docs and sales calls to verified evidence, positioning pillars and landing-page briefs, then kept current when the product changes. Each has a "Works with" section and the same eight shared rules (evidence before copy, shipped means shipped, verbatim buyer quotes checked by script, SAFE / NEEDS VERIFY / INTERNAL ONLY tags, thin evidence said plainly, finished docs not change logs, an external-safe mode, plain voice).
+
+| Step | Skill | Takes in | Produces |
+|---|---|---|---|
+| 1 | [`use-case-evidence-research`](./use-case-evidence-research) | Product docs, call transcripts, VoC library | One verified evidence doc per use case or feature (internal or external-safe) |
+| 2 | [`capability-pillar-research`](./capability-pillar-research) | Step 1 docs and the product's capability catalogue | One doc per verb-based pillar, with an evidence-strength rating |
+| 3 | [`pillar-landing-pages`](./pillar-landing-pages) | Positioning brief and steps 1-2 | One landing-page brief per pillar, with its own keywords and copy |
+| 4 | [`claim-propagation-sweep`](./claim-propagation-sweep) | A product change and everything from steps 1-3 | Fixed docs, a flag list, and live assets to change by hand |
+
+**Quote check.** [`use-case-evidence-research/verify_quotes.py`](./use-case-evidence-research/verify_quotes.py) checks every quoted bullet in a doc against your raw sources and exits non-zero on anything not found:
+
+```
+python3 -I use-case-evidence-research/verify_quotes.py path/to/doc.md path/to/transcripts/ path/to/voc.csv
+```
+
+**GitHub Copilot Spaces.** Add the four SKILL.md files as sources and paste [`copilot-space-instructions.md`](./copilot-space-instructions.md) into the space's Instructions.
