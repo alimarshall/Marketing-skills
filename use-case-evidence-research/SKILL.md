@@ -1,5 +1,5 @@
 ---
-name: use-case-evidence-research
+name: "use-case-evidence-research"
 description: "Research one or more product use cases or features end to end: pull what the product actually does from internal product docs, rescan sales and customer call transcripts plus any voice-of-customer library for pains, hopes and reactions, verify every quote word for word, and write finished reference docs (internal, or an external-safe customer-proof version) mirrored to a wiki. Use whenever the user asks to update use case docs, rescan the calls, find new quotes for a feature, asks what buyers say about something, wants themes and quotes per use case, asks what pains a feature solved for a customer, or wants research cleaned up so it reads as a finished doc. First step of a four-skill set: its output feeds capability-pillar-research and pillar-landing-pages, and claim-propagation-sweep keeps it current."
 ---
 
@@ -15,7 +15,7 @@ The two failure modes this skill exists to prevent:
 
 - **Takes in:** product docs (capability lists, roadmaps, specs, release notes), call transcripts, any voice-of-customer library, existing use-case docs.
 - **Produces:** one evidence doc per use case or feature (internal, or external-safe), product capability snapshots, and the quote-check script used by the whole set.
-- **Next:** capability-pillar-research (to regroup this evidence by verb) or pillar-landing-pages (to write page briefs). Run claim-propagation-sweep when a product fact you documented here changes.
+- **Next:** capability-pillar-research (to regroup this evidence by verb) or pillar-landing-pages (to write page briefs). The same docs feed use-case-ad-variations (one ad group per use case), teach-then-sell-video-scripts and education-video-prep. Start from buyer-research's VOC library when one exists. Run claim-propagation-sweep when a product fact you documented here changes.
 
 ## 0. Scope (ask only if unclear)
 
@@ -132,3 +132,5 @@ What changed per use case (themes, quotes, accounts, how many accounts are new),
 4. **claim-propagation-sweep**: runs whenever a product fact changes, across everything steps 1-3 produced, and feeds corrections back into the evidence docs.
 
 Outputs of one step are the inputs of the next. If you're asked for a later step and the earlier output doesn't exist, build the earlier step first (or tell the user it's missing) rather than writing from memory.
+
+The wider marketing-skills set builds on the same docs: buyer-research feeds step 1, competitive-matrices holds the approved claims, and use-case-ad-variations, teach-then-sell-video-scripts and education-video-prep turn the evidence into ads and video. Claim tags mean the same thing in every skill.
