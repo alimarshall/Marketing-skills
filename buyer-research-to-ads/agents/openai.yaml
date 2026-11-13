@@ -1,0 +1,4 @@
+interface:
+  display_name: "Buyer Research to Ads"
+  short_description: "Turn buyer evidence into clear ad angles"
+  default_prompt: "Use $buyer-research-to-ads to turn our buyer interviews and product context into distinct ad angles and source-linked copy for our main use cases."
