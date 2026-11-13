@@ -9,11 +9,9 @@ Most tracking audits come back as consultant reports: long, hedged, and hard to 
 
 ## Inputs
 
-- Site URLs in scope (and which brand each belongs to, if several): `<fill in>`
-- Known tag, property and portal IDs, if any: `<fill in>`
-- Ad platforms with live or planned spend: `<fill in>`
-- Primary conversion pages and events (demo request, thank-you, sign-up): `<fill in>`
-- Markets served (decides consent requirements, e.g. EU/UK): `<fill in>`
+Read `company-context.md` first (repo root, or search the workspace for it). This skill uses: site URLs and which brand each belongs to, known tag/analytics/ad/CRM IDs, ad platforms with spend, conversion pages and events, markets served, tracking audits folder.
+
+If the file or a line is missing, ask once, then offer to save the answer to `company-context.md` (create it from the repo template if needed). Never fill a gap with an assumption about the company.
 
 ## Workflow
 
@@ -60,6 +58,14 @@ Note when an ID is shared across brands.
 
 ### 5. Save it
 Save as `<Brand(s)>-Ad-Tracking-Audit.md` with the date, the punch list, the ID table and a status line ("saved punch list, not yet actioned" or what has been done). Re-audits update the same file with a dated section showing what's now fixed.
+
+## Works with
+
+- **Measures what the other skills produce**: campaigns built from `vertical-persona-research` and `abm-account-multithread` can't be read without working conversion tracking, so run this before paid spend scales.
+- **Hands off** implementation (event plan, dataLayer, tag setup) to an analytics-tracking skill, and test design to an A/B or creative-testing skill.
+- **CRM portal splits** found here matter to `abm-account-multithread`, which relies on clean account and contact data.
+
+Skills named here are optional. If one isn't installed, do that step inline and say so.
 
 ## Checks before handover
 
