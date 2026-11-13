@@ -162,6 +162,32 @@ Start with [`ads-workflow`](./ads-workflow/SKILL.md) when the job spans several 
 7. **Verify and deliver a coherent set.** Run Claim Verification and Copy Register Check against the finished copy and current evidence. Ad Library & Review keeps the concept IDs, captions, source notes, previews, exports and feedback aligned. Preserve accepted work and remove rejected components from every active use.
 8. **Close the learning loop.** Creative Testing owns the test design and interpretation after delivery or launch. Feed measured findings into the learning log and route relevant avatar/research changes back to their owners. Producing a concept is not evidence that it works.
 
+### Match the creative to the ad angle
+
+Before choosing an image, state the visual job: **because the ad is about this buyer tension, show this moment or artifact so the viewer understands this change.** The scene, headline and product evidence should tell the same story. Brand colours and an attractive photo alone do not establish that fit.
+
+| Angle | What the creative can make visible |
+|---|---|
+| Repetitive work or chasing | The recurring request, artifact or handoff and a supported outcome |
+| Leadership, ambition or scale | A credible decision-making or team context that matches the larger promise |
+| Help at a specific moment | A plausible situation, the actual question and the support or action provided |
+| Visibility and confidence | The relevant question, useful report or decision context |
+| Customer proof | A verified result and its meaning, without implying an unrelated person is the customer |
+
+Use photography alone when it carries the angle. Add product UI when it explains a meaningful action; do not add bubbles to every photo or use them to rescue an unrelated scene. Check the full asset at mobile size for story, specificity, claim accuracy and first-read hierarchy. A new photo or crop is an execution variant, not automatically a new ad angle.
+
+See [Match the creative to the angle](./ad-creative-direction/references/angle-to-visual.md) for the treatment map and review checks.
+
+### Source, create and use photos
+
+1. **Brief the moment first.** Specify the action, setting, mood, subject position, copy space and delivery crops. Search or generate against that brief.
+2. **Choose the right source.** Use approved company photography, properly licensed stock, a commissioned shoot or generation where the brief permits it. Track the source and planned advertising usage; image search is not a licence.
+3. **Make generated scenes plausible.** Describe an ordinary, specific moment with natural light and restrained expressions. Reserve space for copy. Create the scene separately from typography, logos and operational UI, then composite those from the correct assets.
+4. **Integrate deliberately.** Protect faces and meaningful gestures. Keep UI readable, use transparency carefully and preserve editable layers where possible. Inspect each crop rather than assuming one layout works everywhere.
+5. **Review and maintain.** Check anatomy, props, reflections, lighting and scene logic as well as legibility. Do not imply a stock or generated person is a customer. Record asset IDs, provenance and accepted/rejected uses so revisions reach every active ad.
+
+See [Photos: source, create and use](./ad-creative-direction/references/photos.md) for sourcing decisions, a reusable photo prompt, overlays and quality checks.
+
 ### Shared handoffs and boundaries
 
 Carry one compact record per concept: concept ID, avatar ID, use case, awareness state, source IDs, buyer tension, angle, product job, proof and usage status, copy, visual direction, placement, version and review status. Preserve `SAFE`, `NEEDS VERIFY` and `INTERNAL ONLY` tags in internal records. Keep review notes outside customer-facing artwork unless a qualification is required for accuracy.
@@ -208,6 +234,7 @@ buyer-research-to-ads/references/   evidence mapping, writing examples, creative
 competitor-ad-analysis/SKILL.md     reference principles to original creative directions
 customer-proof-to-ads/SKILL.md      scoped customer results to proof-led campaigns
 ad-creative-direction/SKILL.md      compositions, production briefs and requested assets
+ad-creative-direction/references/   angle-to-visual fit and photo sourcing/creation/use
 product-ui-storytelling/SKILL.md    credible product sequences using the real interface
 ad-library-review/SKILL.md          concept IDs, feedback, versions, gallery and exports
 
