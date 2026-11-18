@@ -8,6 +8,8 @@ One shared spine: **never invent a product fact, a customer quote, a stat or a c
 
 Copy the [LinkedIn ads master prompt](./linkedin-ads/MASTER-PROMPT.md) into a new chat and fill in the company details. It guides ICP research, targeting, account lists, ABM, funnels, campaign preparation and ongoing operation using the unbranded LinkedIn ads playbook.
 
+For named-account campaigns, copy the [1:1 LinkedIn ABM prompt](./linkedin-ads/ABM-1-TO-1-PROMPT.md) to research individual accounts and prepare their targeting, messaging, creative, measurement and sales handoffs.
+
 ## The skills
 
 ### Positioning and messaging
