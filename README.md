@@ -16,6 +16,7 @@ One shared spine: **never invent a product fact, a customer quote, a stat or a c
 
 | Skill | Job | Say |
 |---|---|---|
+| [`linkedin-ads`](./linkedin-ads) | Research, set up, launch, review and update LinkedIn paid media: ICP targeting, company/contact lists, tiered ABM, retargeting, ebooks, webinars and Thought Leader Ads; includes private operating records and practical prompts | "audit this LinkedIn account", "set up LinkedIn for our ICP", "build an ABM list", "launch an ebook or webinar funnel", "update our TLA targeting" |
 | [`creative-strategy`](./creative-strategy) | Run creative strategy end to end: buyer research, avatar mapping, competitor ad-library teardown, positioning, angles by awareness state, hooks and creative mechanics, concepting, then a strategy brief, a production brief, ad copy variations and visual direction | "we need new LinkedIn ads", "what angle should we run", "tear down their ads", "brief the designer" |
 | [`ad-avatars`](./ad-avatars) | Build a new ad avatar, or refresh the standing avatar library as new evidence lands | "build an avatar for the economic buyer", "refresh the avatars", "we have sign-off now" |
 | [`creative-testing`](./creative-testing) | Design the test plan for paid creative and read results honestly at B2B budget scale: naming, the diagnostic ladder, fatigue, attribution, the learning log | "is this ad working", "how do we test these", "should we kill this ad" |
