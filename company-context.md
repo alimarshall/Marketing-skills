@@ -79,6 +79,24 @@ If a line is blank, the skill asks for it once and offers to write the answer ba
 - Ad platforms with live or planned spend: `<fill in>`
 - Conversion pages and events: `<fill in>`
 
+## LinkedIn advertising (for linkedin-ads)
+
+Keep actual company/account records and audience data in a private company workspace. This reusable repository can remain a blank template. Read `linkedin-ads/assets/operating-records.md` for example prompts and record formats.
+
+- Private LinkedIn operating workspace / audience register: `<fill in path or link>`
+- Business Manager, ad account and associated Page (private record pointer): `<fill in>`
+- Account currency / timezone / billing owner: `<fill in>`
+- Current authorized operating scope and launch decision owner: `<fill in>`
+- ICP selection evidence, disqualifiers and buying committee: `<fill in>`
+- Markets, budget limits and planning period: `<fill in>`
+- Account-list master, tier definitions and sales coverage owner: `<fill in>`
+- Customer, pipeline and other exclusion source rules and refresh owner: `<fill in>`
+- Permitted contact sources and event registration / attendance systems: `<fill in>`
+- Approved offers, landing pages, lead forms and TLA authors / sponsorship permissions: `<fill in>`
+- Primary success event, qualified-lead / meeting definitions and CRM routing owner: `<fill in>`
+- Conversion rules, attribution settings and verified test evidence (private record pointer): `<fill in>`
+- Review cadence and change / learning log location: `<fill in>`
+
 ## House style
 
 - Brand voice rules: `<fill in path or summary>`
