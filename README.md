@@ -4,6 +4,10 @@ Claude skills for B2B SaaS product marketing. Positioning, paid creative, conten
 
 One shared spine: **never invent a product fact, a customer quote, a stat or a competitor capability.**
 
+## Start a LinkedIn ads program at a new company
+
+Copy the [LinkedIn ads master prompt](./linkedin-ads/MASTER-PROMPT.md) into a new chat and fill in the company details. It guides ICP research, targeting, account lists, ABM, funnels, campaign preparation and ongoing operation using the unbranded LinkedIn ads playbook.
+
 ## The skills
 
 ### Positioning and messaging
