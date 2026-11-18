@@ -19,6 +19,7 @@ Identify whether the task is read-only research, planning, draft preparation, li
 
 | Work | Read |
 |---|---|
+| Build a similar program from scratch or adapt it for another company | [Build-from-scratch blueprint](references/build-from-scratch.md) |
 | Reverse-engineer an existing account or take over from an agency | [Account audit](references/account-audit.md) |
 | Define a new ICP, native targeting or ABM tiers | [Targeting and ABM](references/targeting-and-abm.md) |
 | Prepare, upload, refresh or troubleshoot lists and retargeting | [Lists and audiences](references/lists-and-audiences.md) |
