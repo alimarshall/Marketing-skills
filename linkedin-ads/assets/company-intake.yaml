@@ -1,0 +1,52 @@
+# Copy into a private company workspace; do not put real company data in a public skills repository.
+# null means unknown. Resolve material unknowns from sources or the user.
+company_context_path: null
+company:
+  name: null
+  products_and_domains: []
+  approved_capability_and_proof_sources: []
+commercial:
+  icp_evidence_sources: []
+  company_fit_rules: []
+  disqualifiers: []
+  buying_roles: []
+  triggers_and_evidence: []
+  markets: []
+  typical_contract_value: null
+  margin_basis: null
+  sales_cycle: null
+  qualified_lead_definition: null
+  qualified_meeting_definition: null
+  sales_capacity_and_owner: null
+linkedin:
+  business_manager_id: null
+  ad_account_id: null
+  page_url: null
+  account_currency: null
+  account_timezone: null
+  access_method_and_role: null
+  billing_owner: null
+  tlas_author_and_post_permissions: []
+program:
+  objective: null
+  offers_and_approved_assets: []
+  budget_limit_and_period: null
+  launch_dates_and_timezone: null
+  abm_tier_definitions: []
+  active_target_account_source: null
+  customer_and_pipeline_source_rules: []
+  permitted_contact_sources: []
+  audience_refresh_owner: null
+measurement:
+  crm_and_access: null
+  primary_event_and_success_condition: null
+  conversion_rule_ids: []
+  attribution_windows_and_model: null
+  form_registration_attendance_systems: []
+  lead_routing_and_followup_owner: null
+  verified_test_evidence: []
+operations:
+  private_output_location: null
+  current_authorized_scope: null
+  required_launch_decision_owner: null
+  review_cadence: null
