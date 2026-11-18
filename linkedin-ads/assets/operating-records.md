@@ -55,7 +55,7 @@ Adapt this policy to the company. Do not blindly apply account-wide customer sup
 
 ### Set up for a different company
 
-> Use this repository's linkedin-ads skill for the company at [website], with [private company-context path]. Research our ICP and buying committee, use our CRM evidence, and propose the smallest useful launch structure within [budget, currency and period]. Build the audience/exclusion matrix and account-list criteria, map available offers, define measurement and list missing inputs. Prepare reviewable drafts and validated list exports. Keep company data private and state any access or launch steps still needed.
+> Use this repository's linkedin-ads skill and its build-from-scratch blueprint for the company at [website], with [private company-context path]. Research our ICP and buying committee using our CRM evidence. Build a similar operating system within [budget, currency and period]: account-list criteria and tiers, source records and validated upload files, audience/exclusion matrix, proposed campaign/ad-set hierarchy with actual targeting, TLA/video source audiences, relevant ebook/webinar paths, measurement and follow-up owners. Stage the build around audience readiness and budget. Prepare reviewable drafts and a launch/change plan, keep company data private, and identify any missing access or decisions. Carry out the setup steps already within my authorized scope; distinguish prepared, saved and live states.
 
 ### Prepare an ABM list
 
