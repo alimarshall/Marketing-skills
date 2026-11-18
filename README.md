@@ -8,7 +8,13 @@ One shared spine: **never invent a product fact, a customer quote, a stat or a c
 
 Copy the [LinkedIn ads master prompt](./linkedin-ads/MASTER-PROMPT.md) into a new chat and fill in the company details. It guides ICP research, targeting, account lists, ABM, funnels, campaign preparation and ongoing operation using the unbranded LinkedIn ads playbook.
 
-For named-account campaigns, copy the [1:1 LinkedIn ABM prompt](./linkedin-ads/ABM-1-TO-1-PROMPT.md) to research individual accounts and prepare their targeting, messaging, creative, measurement and sales handoffs.
+Choose the ABM prompt for the level of personalization you need:
+
+- **Tier 1 — 1:1:** [Individual-account campaigns](./linkedin-ads/ABM-1-TO-1-PROMPT.md), with account-specific research, messaging and sales handoffs.
+- **Tier 2 — 1:few:** [Cluster campaigns](./linkedin-ads/ABM-1-TO-FEW-PROMPT.md), with shared narratives and assets for accounts with similar problems or buying situations.
+- **Tier 3 — 1:many:** [Scalable named-account campaigns](./linkedin-ads/ABM-1-TO-MANY-PROMPT.md), with an approved account universe, reusable content and account-level measurement.
+
+This is a starting model for personalization. Define account membership, investment and movement between tiers using the current company's fit, value, timing and sales capacity; tiers are separate from funnel stages.
 
 ## The skills
 
