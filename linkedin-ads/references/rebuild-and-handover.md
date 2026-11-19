@@ -33,6 +33,8 @@ Inspect the actually selected creative in editors and previews; a route or old s
 
 ## Check the dependencies most often missing from the ad account
 
+Use [source and handoff QA](source-and-handoff-qa.md) for the step-by-step checks behind list identity, upload lineage, CRM stage definitions, event denominators and audit completeness.
+
 **List provenance:** find the authorized source file or exact CRM query behind each important inclusion and exclusion. Preserve company/contact object type, corporate-identity rules, lifecycle conditions, sync frequency, source owner and membership version. Ready status and match rate do not establish selection quality. If source rules cannot be inspected, mark membership reconstruction incomplete.
 
 **Creative reuse and rotation:** inspect original post IDs and where each post is used before proposing edits. Direct sponsored content edits can affect other ad sets using that post; verify the current warning and associations. Reuse, create a new version or replace deliberately. Record performance optimization versus even rotation where supported. Even auction entry is not a guarantee of equal delivered impressions. A long creative inventory is not evidence that the budget can evaluate every variant.
