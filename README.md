@@ -18,6 +18,8 @@ Choose the ABM prompt for the level of personalization you need:
 
 Use the [budget and testing guide](./linkedin-ads/references/budget-and-testing.md) for starting daily and monthly media ranges by campaign type and ABM tier, test periods, audience-capacity checks and scaling rules. Adapt its assumptions to the current company's economics and currency.
 
+For ongoing performance reviews, copy the [weekly LinkedIn optimisation prompt](./linkedin-ads/WEEKLY-OPTIMISATION-PROMPT.md). It produces evidence-backed pause, scale, refresh, targeting and list recommendations, with budget effects, owners and next-review conditions. Run it when needed; the prompt does not schedule reviews or authorize live changes.
+
 This is a starting model for personalization. Define account membership, investment and movement between tiers using the current company's fit, value, timing and sales capacity; tiers are separate from funnel stages.
 
 Before recreating an existing account or taking over from an agency, use the [rebuild and handover checklist](./linkedin-ads/references/rebuild-and-handover.md). It separates documented strategy from verified settings, source lists, creative/post reuse, tracking and tested CRM handoffs. The [source and handoff QA guide](./linkedin-ads/references/source-and-handoff-qa.md) covers list validation, upload lineage, CRM definitions, event follow-up and complete audit coverage.
