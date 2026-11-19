@@ -11,18 +11,28 @@ Use when someone asks "what % of buyers want X", "how has X changed over the yea
 
 - **Takes in:** transcripts grouped per prospect company (call platform), the VOC library from buyer-research for emotion questions.
 - **Produces:** a rubric, per-company tags with verified quotes, shares of companies per category and quarterly trends with a projected quarter.
-- **Next:** research-data-charts (charts), founder-pov-concepts and teach-then-sell-video-scripts (stats to quote), buyer-research (new themes worth adding).
+- **Next:** research-data-charts (charts), vertical-persona-research (the same tagged evidence sliced by function, industry and role, so calls aren't mined twice), abm-account-multithread (one company's fears and hopes as openers), customer-proof-from-usage-reports (proof that answers the top fears), founder-pov-concepts and teach-then-sell-video-scripts (stats to quote), buyer-research (new themes worth adding). For a one-off themes summary of a batch of calls, use buyer-call-synthesis instead.
 
 ## Inputs
 
 Read `company-context.md` first (repo root, or search the workspace for it) and use the fields that apply to this skill. If the file or a line is missing, ask once, then offer to save the answer back to it. Never fill a gap with an assumption about the company.
-- **Transcripts grouped per company:** one file per prospect company holding all its relevant calls, with each line labelled as seller side or prospect side (e.g. `(SELLER)` / `(PROSPECT)`). Pull them from the call recorder (Gong, Chorus, Fathom and so on).
+- **Your email domain(s):** used to tell your side of the call from the buyer's.
+- **Transcripts grouped per company:** one file per prospect company holding all its relevant calls, with each line labelled as seller side or prospect side (e.g. `(SELLER)` / `(PROSPECT)`). Pull them from the call recorder (Gong, Chorus, Fathom and so on). If they don't exist yet, Step 0 builds them.
 - **Grouping:** group by the prospect's email domain, never by call title. Keep only external calls of real length.
 - **Company table:** one record per company with first call date, number of calls, relationship (prospect, customer, partner) and whether the call is substantive. Analyse substantive buyer conversations only.
-- **Emotion questions:** an optional voice-of-customer (VoC) moments table (quote, emotion, theme, persona, company, date). Drop neutral moments when reporting emotion shares. Separate existing customers from prospects when the question is about demo reactions.
+- **Emotion questions:** an optional voice-of-customer (VoC) moments table (quote, emotion, theme, persona, company, date). If you don't have one, build it like a tagging pass: per call, the strongest 3 to 10 prospect moments with one emotion each (frustration, anxiety, skepticism, curiosity, confidence, excitement, relief, neutral), verified word for word. Drop neutral moments when reporting emotion shares. Separate existing customers from prospects when the question is about demo reactions.
 - **Credentials:** never print or share API credentials.
 
 ## Method
+
+**Step 0: build the evidence base (skip if it already exists).**
+- Pull the call list for the date range with participants (name, email, title). Most APIs page with a cursor: save state after every page.
+- Keep calls with at least one external participant whose domain isn't yours or a free-mail domain, longer than about 5 minutes, and matching the pipeline rule in `company-context.md`.
+- Group by the external participants' email domain root (`acme.co.uk` and `acme.com` become one company when it's clearly the same business). Never group by call title.
+- Pull transcripts in batches, map each speaker to a participant, and label each line `(SELLER)` if the speaker's domain is yours, otherwise `(PROSPECT)`.
+- Write one file per company (every call with date, title and participants) and the company table. Substantive = the prospect speaks about their own situation (roughly 150+ words); no-shows, internal, vendor and recruiting calls are not substantive.
+
+**Choosing categories for a new topic or market.** Start from existing buyer research, VoC themes, the capability catalogue and objection lists. If nothing exists, read about 15 varied companies, list every distinct item, and merge into 8 to 15 categories a stranger could apply the same way, plus `other`. Good starting lenses for any B2B product: jobs they want done, problems or frustrations today, fears about buying or rolling out, hopes or outcomes, why now, success measures, first use. Give each category a one-line definition with an include and exclude example.
 
 1. **Check what's already tagged.** If existing tags answer the question, use them. Run a new pass only when the categories don't exist yet.
    - A keyword scan is fine for sizing, but it is never a chart number. Say so if you show one, because it counts mentions ("we're hiring 50 people") as needs.
@@ -32,7 +42,7 @@ Read `company-context.md` first (repo root, or search the workspace for it) and 
    - **Categories:** fixed lists plus `other`, so results add up across companies. A mention alone isn't a need.
    - **Quotes:** every item needs a verbatim quote of 35 words or fewer that is an exact substring of one prospect line.
    - **Strictness:** be strict; when unsure, mark false.
-   - **Output shape:** JSON, one object per company.
+   - **Output shape:** JSON, one object per company. Keep the speaker's name, title, call ID and date on every quote, so other skills can use it per person.
 
 3. **Batch and run.**
    - Split the companies into about 6 batches balanced by file size.
@@ -54,7 +64,8 @@ Read `company-context.md` first (repo root, or search the workspace for it) and 
    - Report each quarter and the change from the first to the last full quarter.
    - **Current-quarter projection:**
      - Fit a line through the full quarters, extend it to the current quarter, and clamp it to 0–100.
-     - Blend that with the quarter-to-date share, with weight w = (companies so far this quarter ÷ companies in a typical quarter) on the actual figure.
+     - Blend that with the quarter-to-date share: projected = w × quarter-to-date share + (1 − w) × fitted value, where w = companies so far this quarter ÷ average companies per full quarter, capped at 1.
+     - Needs at least 3 full quarters. With fewer, show the quarter-to-date figure only and label it partial.
      - Label the result "projected". Warn when it lands at 0 to 2%: that is the trend line running out, not a forecast.
    - **Check that a falling line is real.**
      - Compare average calls per company and average categories per company across the quarters.
@@ -65,7 +76,8 @@ Read `company-context.md` first (repo root, or search the workspace for it) and 
    - What they hope the product will do vs the first thing they'd trust it to do.
    - Already using a similar tool vs not.
    - Customers of a major incumbent vs everyone else.
-   - Top-down mandate vs none.
+   - Top-down mandate or company initiative vs none.
+   - Demo reactions: prospects only, with existing customers kept separate.
 
 ## Honesty rules
 - **Don't make data look better than it is.** No cropped axes and no cherry-picked windows. When asked to make something look like it's rising, offer honest reframes: the mix view, a ranking with no time axis, or a "shorter, more focused list" story.
