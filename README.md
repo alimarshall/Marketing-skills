@@ -4,6 +4,8 @@ Claude skills for B2B SaaS product marketing. Positioning, paid creative, conten
 
 One shared spine: **never invent a product fact, a customer quote, a stat or a competitor capability.**
 
+**New here? Start with [GETTING-STARTED.md](./GETTING-STARTED.md):** the build order from an empty folder to live campaigns, what done looks like at each step, which skill handles which request, and how to keep it current.
+
 ## Start a LinkedIn ads program at a new company
 
 Copy the [LinkedIn ads master prompt](./linkedin-ads/MASTER-PROMPT.md) into a new chat and fill in the company details. It guides ICP research, targeting, account lists, ABM, funnels, campaign preparation and ongoing operation using the unbranded LinkedIn ads playbook.
@@ -218,18 +220,18 @@ The new ad skills are unbranded and can support software, goods or services. In 
 
 See [Project handoffs](./ads-workflow/references/project-handoffs.md) for the reusable records and shorter paths.
 
-## Setup: two edits, once
+## Setup: one file, then the constraint tables
 
 These skills invent nothing, which means they need your documents.
 
-1. **Fill in [`creative-strategy/references/inputs.md`](./creative-strategy/references/inputs.md)** with your own paths: capability baseline, claim verification tracker, buyer research, messaging matrix, brand voice and writing rules, competitor dossiers. That file is the contract for the whole repo, and it also tells you what a skill does when a document is missing. `positioning-brief` reads the same list.
-2. **Fill in the constraint tables** in [`angle-library.md`](./creative-strategy/references/angle-library.md) and [`hooks-and-mechanics.md`](./creative-strategy/references/hooks-and-mechanics.md) against your own brand rules. Both ship as templates listing the angles and hook tactics that are *commonly* constrained in B2B, with the category of constraint that usually blocks each. Filling them in is the highest-value setup step in the whole thing, because it converts brand rules into creative decisions rather than leaving them as a review gate someone fails at the end.
+1. **Fill in [`company-context.md`](./company-context.md).** It is the single setup file for the whole repo: company, products, capability baseline, evidence sources, document locations, creative library paths, output folders and house style. Every skill reads it first. Blank lines are fine; a skill that needs one asks once and offers to save the answer back.
+2. **Fill in the constraint tables** in [`angle-library.md`](./creative-strategy/references/angle-library.md) and [`hooks-and-mechanics.md`](./creative-strategy/references/hooks-and-mechanics.md) against your own brand rules. Both ship as templates listing the angles and hook tactics that are *commonly* constrained in B2B, with the category of constraint that usually blocks each. Filling them in converts brand rules into creative decisions, so they stop being a review gate someone fails at the end.
 
-Several newer skills also carry their own short **Inputs** section with `<fill in>` placeholders, and `employee-linkedin-posts` ships `references/company-context.md` as a template to fill in. Record paths in `inputs.md` where you can, so there is one list.
+[`creative-strategy/references/inputs.md`](./creative-strategy/references/inputs.md) explains what each creative input is for and what a skill does when one is missing. Paths go in `company-context.md`; where a skill still says "record this in inputs.md", record it in `company-context.md`. `employee-linkedin-posts` ships `references/company-context.md` as a template for the posting team; the company-wide facts in it come from the root file.
 
-`copy-register-check` also needs your banned-construction list. If one does not exist, build it from the last three rounds of editorial feedback. The rules people actually enforce are the ones they keep correcting.
+`copy-register-check` also needs your banned-construction list (the house style section of `company-context.md`). If one does not exist, build it from the last three rounds of editorial feedback. The rules people actually enforce are the ones they keep correcting.
 
-Nothing else needs changing.
+Nothing else needs changing. For the full order of what to build after setup, see [GETTING-STARTED.md](./GETTING-STARTED.md).
 
 ## Layout
 
