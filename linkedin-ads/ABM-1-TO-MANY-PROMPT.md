@@ -3,6 +3,8 @@
 Copy the prompt below into a new chat and replace the bracketed inputs. Keep company evidence, account lists and campaign records in your private workspace. This is a scalable named-account motion; a large audience alone does not make a campaign ABM.
 
 ```text
+Read `linkedin-ads/references/budget-and-testing.md` in the repository. Adapt the budget ranges to this company's currency, economics and eligible audiences. Show daily pace, actual-flight spend, 30-day equivalent, testing periods, stop/hold/scale rules and total media across overlapping cells. Specify whether each allowance is per account, cluster or account universe; do not double count it with funnel budgets.
+
 Use the linkedin-ads skill and its targeting, lists, funnels, build-from-scratch and measurement guidance in https://github.com/alimarshall/Marketing-skills.
 
 Build a 1:many LinkedIn ABM program for [our company website], using [approved target-account universe or criteria to research it], in [markets], within [budget, currency and period]. Use [private company context, CRM evidence and approved assets, or identify what is missing].
@@ -21,5 +23,7 @@ Measure target-account coverage, relevant role reach, qualified responses, meeti
 
 Verify current platform mechanics, separate evidence from hypotheses, keep company data private and state missing access or decisions. Prepare everything for review before paid launch; make live changes only within my explicit authorization.
 ```
+
+Budget reference: [Starting budgets, testing periods and scaling](references/budget-and-testing.md).
 
 Related: [1:1 prompt](ABM-1-TO-1-PROMPT.md) · [1:few prompt](ABM-1-TO-FEW-PROMPT.md) · [New-company master prompt](MASTER-PROMPT.md).
