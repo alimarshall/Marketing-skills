@@ -13,7 +13,7 @@ Read `company-context.md` first (repo root, or search the workspace for it) and 
 
 ## Works with
 
-- **Takes in:** tagged shares and trends from call-research-trend-analysis, or any table of research figures, plus the brand palette.
+- **Takes in:** tagged shares and trends from call-research-trend-analysis, splits by industry or persona from vertical-persona-research, customer stats from customer-proof-from-usage-reports (keep its wording guardrails on every label), or any table of research figures, plus the brand palette and house style from `company-context.md`.
 - **Produces:** social-ready PNG charts.
 - **Next:** founder-pov-concepts and social posts that quote the same figures.
 
@@ -32,17 +32,17 @@ Ask for the brand palette, or find it in the brand or design docs. Map it to the
 - **Falling lines:** a dark tone, so falls read as "down" rather than "bad".
 - **De-emphasised:** a pale tone for a deliberately small or contrarian bar.
 
-Check that text colours meet 4.5:1 contrast on the background, and never use the accent for small text. No em dashes anywhere in chart text.
+Check that text colours meet 4.5:1 contrast on the background, and never use the accent for small text. Apply the house style rules for chart text from `company-context.md` (for example, no em dashes). Use the brand font if it's installed, otherwise a clean sans.
 
 ## Header and footer
 - **Title:** big and bold (about 42pt on a 23-inch-wide figure), in plain words, e.g. "How buyers' fears are changing" or "What's on buyers' wishlist".
-- **Credibility line (dark text, about 17pt):** the scale of the research in a professional tone, e.g. "Based on 300+ conversations with [audience] and 2,700+ emotional moments captured in our buyer research." Only mention sources the chart actually uses.
-- **Measure line (secondary text, about 15pt):** what is measured and the period, e.g. "Percentage of conversations in which each theme was raised, [year]. Change reflects the first three quarters; the last is projected."
+- **Credibility line (dark text, about 17pt):** the scale of the research in a professional tone, e.g. "Based on [N]+ conversations with [audience] in our buyer research." Add "and [N]+ emotional moments captured" only when the chart uses a VoC moments table.
+- **Measure line (secondary text, about 15pt):** what is measured and the period, e.g. "Share of companies we spoke to that raised each theme, [year]. (For social posts, "Percentage of conversations in which each theme was raised" is fine if you can explain it.) Change reflects the first three quarters; the last is projected."
 - **Footer, two short lines only:** the colour key, then "Source: [Company] buyer research".
 - **Leave off:** raw call or company counts, method notes, and anything like "biggest rises first".
 
 ## Small-multiples trend chart
-Use one small line chart per item in a 5-column grid, sorted by change (biggest rise first). It reads better than a dumbbell chart for 10 to 20 items.
+Use one small line chart per item in a 5-column grid (4 for 8 or fewer items), sorted by change (biggest rise first). It reads better than a dumbbell chart for 10 to 20 items.
 
 **Each panel:**
 - An optional small caps tag above, e.g. FEAR or FRUSTRATION when two types share a chart.
@@ -57,7 +57,8 @@ Use one small line chart per item in a 5-column grid, sorted by change (biggest 
 - Thresholds: 5 points for share-of-companies charts, 2 points for mix charts (shares that add to 100%).
 
 **Layout:**
-- Use the same y-axis on every panel (0/30/60%, or 0/10/20% for mix charts), with light gridlines and no spines.
+- Use the same y-axis on every panel, topping out just above the highest value (e.g. 0/30/60%, or 0/10/20% for mix charts), with light gridlines and no spines.
+- For 2 rows, about 23 × 11.5 inches works.
 - Size the figure at about 23 × 19 inches for 4 rows, or 23 × 15.5 for 3 rows.
 - Make each panel about 72% of its column width and 44% of its row height, so titles never touch the axis labels of the row above.
 - **Centre the grid:** after rendering, measure where the non-background pixels start and end, then shift the panels until the left and right margins match within a few pixels.
@@ -67,7 +68,7 @@ Use this for pairs like fears vs frustrations or problems vs hopes.
 - **Bars:** horizontal and sorted. The top bar is in the accent, the rest in the default tone, and a deliberately small or contrarian bar in the pale tone.
 - **Headings:** each panel has a bold heading and a one-line subheading, e.g. "88% voiced at least one".
 - **Values:** print percentages at the bar ends, with no x-axis.
-- **Takeaway:** optionally add one line above the footer, written as a plain finding with no "X, not Y" antithesis.
+- **Takeaway:** optionally add one line above the footer, written as a plain finding in the house style.
 
 ## Iterating
 - Expect fast, small rounds of edits: spacing, wording, colours.
