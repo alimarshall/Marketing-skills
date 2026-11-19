@@ -7,6 +7,8 @@ Use https://github.com/alimarshall/Marketing-skills as your operating playbook t
 
 Read `linkedin-ads/SKILL.md`, its build-from-scratch blueprint, and the relevant targeting, lists, funnels, launch and measurement references. Use other skills in the repository where they materially help with company context, buyer research, creative or attribution.
 
+Read `linkedin-ads/references/budget-and-testing.md` for budget planning. Treat its ranges as starting hypotheses and adapt them to our economics, currency, eligible audience and approved ceiling.
+
 **Company and inputs**
 
 - Company website: [URL]
@@ -67,6 +69,8 @@ Map the dependencies: which videos/posts feed which audiences; what happens afte
 **5. Produce a staged implementation and launch plan**
 
 Provide the proposed campaign/ad-set hierarchy, audience register, exclusion matrix, asset requirements, budget rationale, schedules, measurement setup and launch checks.
+
+For each funded cell, show daily budget, actual flight spend and 30-day equivalent, test duration, expected evidence and qualification lag, and stop/hold/scale rules. Distinguish per-account, per-cluster and per-universe ABM allowances. Reconcile shared campaign budgets, overlapping funnels, total simultaneous spend and reserve without double counting. Show cost and audience-capacity assumptions; defer cells the budget or audience cannot support.
 
 Stage deployment around readiness, audience supply and budget. Explain what to launch first, what to prepare but defer, and what evidence justifies adding another cell. Do not force every buyer through one sequence or divide a small budget across too many campaigns.
 
