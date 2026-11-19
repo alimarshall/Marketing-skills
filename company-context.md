@@ -61,6 +61,23 @@ If a line is blank, the skill asks for it once and offers to write the answer ba
   - Archive folder for backups before a cleanup: `<fill in>`
 - Cadence: weekly sweep day, and competitor events that trigger an AI/MCP re-check: `<fill in>`
 
+## Creative and ads (for creative-strategy, ad-avatars, creative-testing, ads-workflow)
+
+- Ad avatar library: `<fill in>`
+- Pain bank / ranked pain themes: `<fill in>`
+- Angle library (status per angle per product line): `<fill in>`
+- Creative learning log, and the short code per product line used in it (e.g. `CORE`, `AI`, `ALL`): `<fill in>`
+- Swipe file and competitor ad references: `<fill in>`
+- Approved product screenshots and brand assets: `<fill in>`
+- Approved photography and stock licences: `<fill in>`
+
+## Content and comms (for research-led-content-plan, product-update-email, employee-linkedin-posts)
+
+- Content calendar: `<fill in>`
+- Newsletter and product update email archive (last one sent): `<fill in>`
+- Where trend reports, charts and the running findings doc live: `<fill in>`
+- Sales channel or doc for research updates to the sales team: `<fill in>`
+
 ## Thought leadership (for exec-tl-context-file and exec-post-skeletons-from-buyer-research)
 
 - Exec(s) posting, with role and LinkedIn profile URL: `<fill in>`
