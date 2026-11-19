@@ -28,6 +28,7 @@ Identify whether the task is read-only research, planning, draft preparation, li
 | Design ebooks, webinars, video or TLA funnels | [Funnels and offers](references/funnels-and-offers.md) |
 | Prepare a new account/campaign, launch or change live settings | [Launch and change](references/launch-and-change.md) |
 | Set starting daily/monthly budgets, fund tests or define scaling rules | [Budgets and testing](references/budget-and-testing.md) |
+| Run a weekly pause/scale/refresh, targeting and list review | [Weekly optimisation prompt](WEEKLY-OPTIMISATION-PROMPT.md) |
 | Read results, diagnose delivery, allocate budget or optimize | [Measurement and optimization](references/measurement-and-optimization.md) |
 
 Use [operating records and prompts](assets/operating-records.md) for practical handoffs, registers and example requests. Do not load every reference for a narrow task.
