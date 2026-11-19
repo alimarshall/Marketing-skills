@@ -46,10 +46,12 @@ Check every claim against the capability baseline. If a stat implies a feature t
 Named-customer figures are internal until the customer signs off. Put that line at the top of every deliverable that uses them, and record in the approval tracker what has been requested and what is approved. Published case-study figures are the exception.
 
 ### 5. Map stats to the people who care
-Each persona asks a different question of the same report. Default mapping:
+Each persona asks a different question of the same report. Build the mapping from your own persona reference (who signs, who blocks, who uses it). The example below is for an assistant or helpdesk-style product sold to an operations team; if security or IT is your buyer, their lens leads.
 
-- **Operator / champion** (runs the function day to day): volume handled, self-serve rate, the specific requests people bring, adoption, new-starter adoption.
-- **Technical gatekeeper** (IT, security): the approval model (user-approved vs auto-approved), how escalation works, runs on the stack they already have, no new tool to roll out. Usually the weakest lens if the report has no IT-specific workflows. Say so internally.
+Worked example:
+
+- **Operator / champion** (runs the function day to day): volume handled, self-serve rate, the specific requests people bring, adoption, adoption by new users.
+- **Technical gatekeeper** (IT, security): the approval model (user-approved vs auto-approved), how escalation works, runs on the stack they already have, no new tool to roll out. If the report has nothing that answers this persona's question, say so internally rather than stretching a stat.
 - **Finance**: volume absorbed without adding headcount, approvals no longer stalling, scale across users. Cost maths only if the missing input exists.
 - **Executive / transformation leader**: adoption at scale, the product doing work rather than only answering, one board-ready narrative.
 
