@@ -2,6 +2,8 @@
 
 ## Define the inspection boundary
 
+For an exact rebuild or agency replacement, also use [rebuild and handover](rebuild-and-handover.md). It defines the evidence needed beyond a reusable method, including tier-label verification, creative/post reuse, rotation, composed tracking URLs and downstream source/CRM dependencies.
+
 Read-only is the default for research. Record the business/account/Page identities, observed date, reporting range, timezone/currency, permissions visible and evidence route. Business Manager ID and advertising account ID are different. If the supplied URL lists multiple accounts, identify the correct one from evidence rather than assuming the first row.
 
 Use the available connector if sufficient; otherwise inspect the authenticated UI or exports. Document filters and pagination. Counts in an overview, status tabs and a filtered table can differ. Do not claim an exhaustive audit when only a sample of ad sets was opened. Label inventory coverage separately from detailed-settings coverage.
