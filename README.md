@@ -16,6 +16,8 @@ Choose the ABM prompt for the level of personalization you need:
 
 This is a starting model for personalization. Define account membership, investment and movement between tiers using the current company's fit, value, timing and sales capacity; tiers are separate from funnel stages.
 
+Before recreating an existing account or taking over from an agency, use the [rebuild and handover checklist](./linkedin-ads/references/rebuild-and-handover.md). It separates documented strategy from verified settings, source lists, creative/post reuse, tracking and tested CRM handoffs.
+
 ## The skills
 
 ### Positioning and messaging
