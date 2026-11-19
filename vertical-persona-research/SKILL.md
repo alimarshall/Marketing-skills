@@ -1,15 +1,15 @@
 ---
 name: "vertical-persona-research"
-description: "Research and document buyers by vertical for any B2B product: what jobs the product can do for a function (People, IT, Finance, etc.), what an industry cares about most, the personas in each industry's buying committee for ABM multithreading, plus real quotes, notes and customer proof mapped to each. Use for \"what jobs can [product] do for X\", \"what does [industry] care about\", \"which industries can we support\", \"personas for ABM at [industry/account]\", \"multithread this account\", \"map these customer stats to each vertical\", or \"slides per vertical\". Brand-agnostic; grounded in call transcripts, CRM and existing research, never invented."
+description: "Research and document buyers by vertical for any B2B product: what jobs the product can do for a function (for example Security, IT, Finance, Ops, People), what an industry cares about most, the personas in each industry's buying committee for ABM multithreading, plus real quotes, notes and customer proof mapped to each. Use for \"what jobs can [product] do for X\", \"what does [industry] care about\", \"which industries can we support\", \"personas for ABM in [industry/segment]\", \"map these customer stats to each vertical\", or \"slides per vertical\". Brand-agnostic; grounded in call transcripts, CRM and existing research, never invented."
 ---
 
 # Vertical & Persona Research
 
 Use this to turn scattered buyer evidence into clear, reusable reference material, sorted by one of three lenses:
 
-1. **Function / job vertical**: what the product does for a team (People, IT, Finance, Ops, Legal, AI transformation leader). Output: a job list, plus the persona context for that function.
+1. **Function / job vertical**: what the product does for a team (your functions from `company-context.md`, e.g. Security, IT, Finance, Ops, People, Legal). Output: a job list, plus the persona context for that function.
 2. **Industry vertical**: what a sector (FinTech, Healthcare, Legal, Energy, etc.) cares about most, its frustrations and objections, the product features it reacts to, and quotes from named accounts.
-3. **Persona / buying committee (ABM)**: who sits in the buying group at a target industry or account, what each person cares about, and how to open with each one. This is for multithreaded outreach.
+3. **Persona / buying committee (ABM)**: who sits in the buying group in a target industry or segment, what each person cares about, and how to open with each one. For one named account, hand the map to abm-account-multithread.
 
 All three lenses use the same evidence base, so build it once and slice it three ways.
 
@@ -17,9 +17,9 @@ All three lenses use the same evidence base, so build it once and slice it three
 
 ## Works with
 
-- **Takes in:** the product's capability or jobs catalogue, buyer research and VOC library, CRM industry data, customer proof.
+- **Takes in:** the product's capability or jobs catalogue, buyer research and VOC library, tagged and quote-verified call evidence from call-research-trend-analysis, CRM industry data, customer proof.
 - **Produces:** a jobs-per-function view, an industry view and a buying-committee persona map, each with quotes and proof.
-- **Next:** abm-account-multithread (applies the persona map to one named account), customer-proof-from-usage-reports (maps stats to each persona), use-case-ad-variations (role and situation wording for hints), pillar-landing-pages.
+- **Next:** abm-account-multithread (applies the persona map to one named account), customer-proof-from-usage-reports (maps stats to each persona), research-data-charts (vertical or persona splits), use-case-ad-variations (role and situation wording for hints), pillar-landing-pages.
 
 ## Inputs
 
@@ -53,13 +53,13 @@ Read the capability or tool catalogue first. List what the product can actually 
 Mine the existing buyer-context, pain, aspiration, ICP and persona docs. These are often organised by persona or company stage, not industry. To get an industry view, **re-classify each named account by its actual industry** (check the company's site or CRM industry field) and regroup the quotes.
 
 ### 2c. Call transcript mining (when fresh evidence is needed)
-Use this method on the call platform's API:
+If call-research-trend-analysis has already tagged the calls, filter its output for this lens instead of mining again. Otherwise use this method on the call platform's API:
 
 1. **Survey**: page through all calls in the date range (most APIs use cursor pagination, not page numbers or offsets). **Save state after every page** so a timeout doesn't lose progress, and cap pages per run.
 2. **Match accounts by participant email domain, not by call title.** Matching on titles silently misses real accounts. Build a domain-frequency table (calls per external domain) to see who you actually talk to.
-3. **Filter** for the lens. For functions, match participant job titles (CFO, Controller, IT Director, CISO, Head of People). For industries, use the domain list you re-classified. For a product line, use calls whose title or attendees mark that pipeline.
+3. **Filter** for the lens. For functions, match participant job titles (CFO, Controller, IT Director, CISO, Head of People). For industries, use the domain list you re-classified. For a product line, use the pipeline rule in `company-context.md` (owner, attendees, deal stage); a call title alone is not enough.
 4. **Build manifests** (call ID lists) per group and hand transcript reading to parallel subagents, one group each. Give each one the goal, the capability catalogue, and the output format: verbatim quote, speaker name and title, company, date, call ID, and the theme it supports.
-5. **Pull transcripts in batches** (often up to 100 IDs per request). Respect rate limits; a typical limit is about 3 requests a second and 10k a day.
+5. **Pull transcripts in batches.** Check your platform's batch size and rate limits and stay under them.
 6. **Verify quotes** against the transcript text before using them. Never paraphrase inside quotation marks.
 
 ### 2d. Customer proof
@@ -100,7 +100,7 @@ Proof: case studies or stats from accounts in this sector.
 ```
 
 ### Persona / ABM multithreading map
-For a target industry or a named account, map the buying committee:
+For a target industry or segment, map the buying committee (for a named account, use abm-account-multithread):
 
 | Role | Typical titles | What they care about | Frustration to open on | Proof / stat | Opening angle | Jobs to show |
 |---|---|---|---|---|---|---|
@@ -113,14 +113,13 @@ For a target industry or a named account, map the buying committee:
 Then add:
 - **Sequencing**: who to approach first, who the champion needs help selling to, and which objections each person raises.
 - **One message per thread**: each person gets a different reason to care. Don't send the same pitch to every role.
-- **Account-specific signals** (for named accounts): hiring, funding, tool stack, leadership changes, recent calls in the CRM or call platform.
 
 ### Mapping customer proof to verticals (for slides or one-pagers)
-For each function or persona, choose the stats that answer *their* question:
-- Operators or champions: volume handled, self-serve rate, adoption.
+For each function or persona, choose the stats that answer *their* question. Build this from your own persona map; these are typical starting points, and if security is your buyer, the security lens leads:
+- Operators or champions: volume handled, adoption, time saved, the workflows it covers.
 - IT or security: approval model, escalation, runs on the existing stack, controls. Don't claim audit or compliance features unless confirmed.
 - Finance: volume handled without adding headcount, approvals not stalling, scale. Note any input still needed for the FTE or cost maths.
-- Exec or transformation leader: adoption proof, the product doing work (not just answering), a board-ready narrative.
+- Exec or transformation leader: adoption proof, outcomes tied to company goals, a board-ready narrative.
 
 Default is 3 slides per vertical: headline claim, then 3-4 stat bullets, then an optional speaker note.
 
