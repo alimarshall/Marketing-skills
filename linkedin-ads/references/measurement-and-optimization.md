@@ -79,6 +79,8 @@ For sparse B2B data, retain uncertainty. Zero opportunities from a tiny immature
 
 ## Operating rhythm
 
+For a copyable review request, use the [weekly optimisation prompt](../WEEKLY-OPTIMISATION-PROMPT.md). It covers comparable periods, matured quality, prior-change follow-up, exact pause/scale/refresh and targeting/list proposals, and a private action plan. A review does not authorize live changes or create a schedule.
+
 Suggested cadence, adapted to spend and activity:
 
 - Around launch/event deadlines: verify delivery, budget pressure, approval, routing and dates.
