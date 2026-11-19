@@ -1,5 +1,7 @@
 # Measurement and optimization
 
+Use [budgets and testing](budget-and-testing.md) when setting initial daily/monthly allocations, test funding, evidence windows and stop/hold/scale rules. Its numeric ranges are planning assumptions to adapt to the current company.
+
 ## Define success at the right level
 
 Use a measurement ladder: qualified reach → meaningful attention → qualified response → held meeting/evaluation → opportunity → revenue. Choose leading indicators for learning, and commercial outcomes for business decisions. A video view, ebook download and demo request are different events.
