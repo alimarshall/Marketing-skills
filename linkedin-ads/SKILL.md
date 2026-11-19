@@ -21,6 +21,7 @@ Identify whether the task is read-only research, planning, draft preparation, li
 |---|---|
 | Build a similar program from scratch or adapt it for another company | [Build-from-scratch blueprint](references/build-from-scratch.md) |
 | Reverse-engineer an existing account or take over from an agency | [Account audit](references/account-audit.md) |
+| Recreate exact configurations and verify what is still missing for a handover | [Rebuild and handover](references/rebuild-and-handover.md) |
 | Define a new ICP, native targeting or ABM tiers | [Targeting and ABM](references/targeting-and-abm.md) |
 | Prepare, upload, refresh or troubleshoot lists and retargeting | [Lists and audiences](references/lists-and-audiences.md) |
 | Design ebooks, webinars, video or TLA funnels | [Funnels and offers](references/funnels-and-offers.md) |
