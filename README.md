@@ -16,6 +16,8 @@ Choose the ABM prompt for the level of personalization you need:
 - **Tier 2 — 1:few:** [Cluster campaigns](./linkedin-ads/ABM-1-TO-FEW-PROMPT.md), with shared narratives and assets for accounts with similar problems or buying situations.
 - **Tier 3 — 1:many:** [Scalable named-account campaigns](./linkedin-ads/ABM-1-TO-MANY-PROMPT.md), with an approved account universe, reusable content and account-level measurement.
 
+Use the [budget and testing guide](./linkedin-ads/references/budget-and-testing.md) for starting daily and monthly media ranges by campaign type and ABM tier, test periods, audience-capacity checks and scaling rules. Adapt its assumptions to the current company's economics and currency.
+
 This is a starting model for personalization. Define account membership, investment and movement between tiers using the current company's fit, value, timing and sales capacity; tiers are separate from funnel stages.
 
 Before recreating an existing account or taking over from an agency, use the [rebuild and handover checklist](./linkedin-ads/references/rebuild-and-handover.md). It separates documented strategy from verified settings, source lists, creative/post reuse, tracking and tested CRM handoffs. The [source and handoff QA guide](./linkedin-ads/references/source-and-handoff-qa.md) covers list validation, upload lineage, CRM definitions, event follow-up and complete audit coverage.
