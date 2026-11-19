@@ -90,6 +90,8 @@ Use [funnels and offers](funnels-and-offers.md) for each format's mechanics. Reg
 
 ## 6. Stage launch by evidence and budget
 
+Use [budgets and testing](budget-and-testing.md) for starting daily/monthly ranges by motion and ABM tier, actual-flight totals, evidence windows and scaling rules. Recalculate for the company's audience capacity and economics rather than treating the ranges as fixed defaults.
+
 | Stage | Build or verify | Move on when |
 |---|---|---|
 | Foundation | Fit, account ownership, source lists, suppression, measurement, routing, approved assets | Required sources and primary success path are verified |
