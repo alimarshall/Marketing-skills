@@ -74,6 +74,18 @@ Use supported test modes and authorized test identities. Inspect existing record
 
 ## Give ABM handoffs an owner and a trigger
 
+Before reconstructing a creative, check the format-specific path:
+
+| Format | Additional readback |
+|---|---|
+| Carousel | Preserve card order, image, headline and each card destination. Compare each card's promise with its page. Check the main destination and attached form independently; never assume a change to the main URL updates the cards. |
+| Text | Verify image, headline, description and whether the destination is a website or a LinkedIn Page. |
+| Spotlight and Follower | Record background image, member-profile personalization, company image/name, optional description, CTA and destination where supported. Inspect the actual supported placement preview. A draft format selection without ads is not an implemented creative. |
+| Article/newsletter | Identify the actual publishing Page/person, original post and article/newsletter destination. If the editor is blank, inspect the observed original-post link; keep unavailable editor controls marked as unverified. |
+| Message/Conversation | Confirm available reporting fields before defining KPIs. A visible response button does not guarantee that its action is reportable. Preserve sent, opened, clicked and submitted counts with their actual denominators and attribution definitions. |
+
+
+
 For each 1:1 or 1:few wave, identify the account brief, buying committee, role-specific value hypothesis, approved proof and sales owner before preparing media. Agree which signal causes an action, who receives it, the response target and how the outcome is recorded. Synchronize ads with outreach, introductions, events and procurement material where the plan requires it.
 
 Keep proposed program gates separate from actual results. A planned webinar attendance target, future meeting or forecasted close is not an observed outcome. If committee coverage, a source list, a named introduction or a critical asset is missing, show the dependency and adapt the proposed launch sequence. Do not copy another company's week-by-week timetable or gate thresholds.
