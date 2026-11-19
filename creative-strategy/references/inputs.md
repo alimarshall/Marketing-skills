@@ -4,7 +4,7 @@ These skills invent nothing. Every claim in a brief traces to a document you own
 
 This file is the contract. It says what to supply, what each document is for, and what the skill does when one is missing.
 
-**On first use, fill in the paths.** Edit the tables below with your own file paths, URLs or connector locations. That one edit is what turns a generic method into your method. Nothing else in the skill needs changing.
+**Paths live in [`company-context.md`](../../company-context.md)** at the repo root, the single setup file every skill reads. The `Path` column below points there; the matching line has the same name (the claim verification tracker is "Verification tracker", the messaging matrix is "Communication matrix", brand voice is under "House style"). Fill in `company-context.md` once; nothing in this file needs editing.
 
 ---
 
@@ -14,8 +14,8 @@ This file is the contract. It says what to supply, what each document is for, an
 
 | Document | Its job | Path |
 |---|---|---|
-| **Capability baseline** | What the product actually does, verified. Ideally with a section listing claims that sound right and are not. That section gets read before every headline. | `<fill in>` |
-| **Claim verification tracker** | What is not safe to say yet. Every number, timeline and gap claim passes through here before it reaches an ad. | `<fill in>` |
+| **Capability baseline** | What the product actually does, verified. Ideally with a section listing claims that sound right and are not. That section gets read before every headline. | see `company-context.md` |
+| **Claim verification tracker** | What is not safe to say yet. Every number, timeline and gap claim passes through here before it reaches an ad. | see `company-context.md` |
 
 Without the capability baseline the skill runs **degraded**: avatars, angles, teardown and concept reasoning, and no finished copy. Say so at the top of the brief rather than writing copy on unverified ground.
 
@@ -25,11 +25,11 @@ This is where angles come from. Nowhere else.
 
 | Document | Its job | Path |
 |---|---|---|
-| **Buyer pain research** | What hurts, in the buyer's own words, attributed to named accounts. The Push language. | `<fill in>` |
-| **Buyer aspiration research** | What they get excited about. The Pull language, and consistently the thinnest file in most teams. | `<fill in>` |
-| **Voice-of-customer verbatims** | Attributed quotes, ideally emotion-tagged. The single best source for hook language, because it is already in the buyer's words. | `<fill in>` |
-| **Ranked pain themes** | Frequency-ranked pains across a pipeline or account set. Frequency ranking is directly usable as angle prioritisation. | `<fill in>` |
-| **ICP and buyer personas** | Firmographics and committee seats. **Not ad avatars.** See `ad-avatars.md` for the difference. | `<fill in>` |
+| **Buyer pain research** | What hurts, in the buyer's own words, attributed to named accounts. The Push language. | see `company-context.md` |
+| **Buyer aspiration research** | What they get excited about. The Pull language, and consistently the thinnest file in most teams. | see `company-context.md` |
+| **Voice-of-customer verbatims** | Attributed quotes, ideally emotion-tagged. The single best source for hook language, because it is already in the buyer's words. | see `company-context.md` |
+| **Ranked pain themes** | Frequency-ranked pains across a pipeline or account set. Frequency ranking is directly usable as angle prioritisation. | see `company-context.md` |
+| **ICP and buyer personas** | Firmographics and committee seats. **Not ad avatars.** See `ad-avatars.md` for the difference. | see `company-context.md` |
 
 **Know the bias in whatever you supply here.** Most teams' buyer research comes from one corpus shape: their own sales conversations. It is rich, and everyone in it is already talking to you. It contains nothing from people who never took the call and almost no unprompted language, because a discovery call is a prompted setting. For cold, problem-aware creative, unprompted language is exactly what is missing. `pain-mapping.md` names the review and forum corpora that fix it.
 
@@ -37,15 +37,15 @@ This is where angles come from. Nowhere else.
 
 | Document | Its job | Path |
 |---|---|---|
-| **Messaging or communication matrix** | Feature to pain to benefit to proof, tagged by priority. Check before proposing a new lead angle, so the brief does not silently re-tier something already decided. | `<fill in>` |
-| **Positioning briefs** | What was demoted and why. A capability demoted because it is table stakes can still be a strong ad angle at a different awareness state. | `<fill in>` |
+| **Messaging or communication matrix** | Feature to pain to benefit to proof, tagged by priority. Check before proposing a new lead angle, so the brief does not silently re-tier something already decided. | see `company-context.md` |
+| **Positioning briefs** | What was demoted and why. A capability demoted because it is table stakes can still be a strong ad angle at a different awareness state. | see `company-context.md` |
 
 ### Brand rules
 
 | Document | Its job | Path |
 |---|---|---|
-| **Voice and register rules** | **This outranks every pattern in the skill.** The taxonomies here contain standard B2B moves that your brand may prohibit. | `<fill in>` |
-| **Writing rules** | Banned phrases, hedges, house punctuation, proof ranking, how you write about your category. | `<fill in>` |
+| **Voice and register rules** | **This outranks every pattern in the skill.** The taxonomies here contain standard B2B moves that your brand may prohibit. | see `company-context.md` |
+| **Writing rules** | Banned phrases, hedges, house punctuation, proof ranking, how you write about your category. | see `company-context.md` |
 
 The skill does not restate these and does not override them. Where a rule blocks an angle, a hook tactic or a mechanic, the brief records the block and the reason rather than quietly working around it.
 
@@ -55,9 +55,9 @@ The skill does not restate these and does not override them. Where a rule blocks
 
 | Document | Its job | Path |
 |---|---|---|
-| **Competitor dossiers** | Read only for competitors actually named or clearly implied. The deal-intelligence section first: who appears on real shortlists. | `<fill in>` |
-| **Advertiser page slugs** | The ad-library page for each tracked competitor, confirmed as the corporate page rather than a regional or careers one. | `<fill in>` |
-| **Shared-gap list** | Where you and a competitor have the same weakness. These are precisely the claims a conquest angle reaches for first. | `<fill in>` |
+| **Competitor dossiers** | Read only for competitors actually named or clearly implied. The deal-intelligence section first: who appears on real shortlists. | see `company-context.md` |
+| **Advertiser page slugs** | The ad-library page for each tracked competitor, confirmed as the corporate page rather than a regional or careers one. | see `company-context.md` |
+| **Shared-gap list** | Where you and a competitor have the same weakness. These are precisely the claims a conquest angle reaches for first. | see `company-context.md` |
 
 ---
 
