@@ -75,6 +75,8 @@ Adapt this policy to the company. Do not blindly apply account-wide customer sup
 
 ### Review and recommend changes
 
+Use the [full weekly optimisation prompt](../WEEKLY-OPTIMISATION-PROMPT.md) for a recurring review format with evidence, entity-level decisions, targeting/list changes and follow-through on prior recommendations. Save each completed review in the current company's private workspace and update these existing records as appropriate.
+
 > Use the linkedin-ads skill to review [account] for [period] against the comparable prior period and mature CRM cohorts. Inspect delivery, audience quality, source refresh, combined frequency, lead qualification and pipeline. Explain what we know and cannot yet infer. Return the few highest-impact recommendations with exact entity IDs, before/after settings, evidence, expected effect and rollback. This request is a review, not authorization for live changes.
 
 ### Execute a defined update
