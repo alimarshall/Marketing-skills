@@ -21,14 +21,14 @@ For each URL, check the page source, the rendered DOM and network requests (a br
 - **Ad conversion tracking**: Google Ads conversion tags and Enhanced Conversions; LinkedIn Insight Tag and whether conversions are defined in Campaign Manager; Meta Pixel and which events fire beyond PageView.
 - **Analytics**: property ID present in code vs actually initialising and sending hits. Conversions marked, cross-domain set up, internal traffic filtered, ad account linked.
 - **Consent**: a consent management platform present, Consent Mode v2 wired, and whether tags fire before consent.
-- **CRM tracking**: tracking code and portal ID; whether several brands share one portal or tag and need separating.
+- **CRM tracking**: the CRM's site tracking (e.g. HubSpot tracking code and portal ID, Salesforce Account Engagement/Pardot tracking code, Marketo Munchkin ID) and how forms reach the CRM; if you run several brands, whether they share one account or tag and need separating.
 - **SEO and schema** (lower priority): duplicate or missing structured data, missing social meta tags, thin sitemaps.
 
 Separate "ID is in the code" from "confirmed firing". Never mark something working without seeing the request.
 
 ### 2. Prioritise
 - **P0, fix now**: anything that leaves live or planned ad spend blind (no conversion tracking, no tag manager blocking the fixes, conversions undefined, analytics not confirmed collecting).
-- **P1, next**: consent and legal risk, pixel events beyond PageView, analytics hygiene, a written event plan on a shared dataLayer, separating shared tags or portals by brand.
+- **P1, next**: consent and legal risk, pixel events beyond PageView, analytics hygiene, a written event plan on a shared dataLayer, separating shared tags or CRM accounts by brand (only if you run several brands).
 - **P2, later**: schema and SEO cleanup, tool choices, server-side tagging.
 
 If several sites are in scope, say which goes first and why (usually the one with the least infrastructure or the most spend).
@@ -51,7 +51,7 @@ If the user pastes an existing audit and asks to simplify it, keep the findings 
 |---|---|
 | Analytics property ID (per site) | |
 | Ad platform tag / partner IDs | |
-| CRM portal ID | |
+| CRM tracking / account ID | |
 | Conversion pages / events needed | |
 
 Note when an ID is shared across brands.
